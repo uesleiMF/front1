@@ -97,7 +97,7 @@ const EditProfile = () => {
         <form className="--form-control --m" onSubmit={saveProfile}>
           <span className="profile-data">
             <p>
-              <label>Name:</label>
+              <label>Nome:</label>
               <input
                 type="text"
                 name="name"
