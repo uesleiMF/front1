@@ -54,7 +54,7 @@ const ProductDetail = () => {
                 <p>No image set for this product</p>
               )}
             </Card>
-            <h4>Product Availability: {stockStatus(product.quantity)}</h4>
+            <h4>Product : {stockStatus(product.quantity)}</h4>
             <hr />
             <h4>
               <span className="badge">Name: </span> &nbsp; {product.name}

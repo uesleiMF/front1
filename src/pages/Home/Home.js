@@ -10,7 +10,7 @@ const Home = () => {
     <div className="home">
       <nav className="container --flex-between ">
         <div className="logo">
-          <RiProductHuntLine size={35} />
+          <RiProductHuntLine size={36} />
         </div>
 
         <ul className="home-links">
