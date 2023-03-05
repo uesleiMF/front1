@@ -1,26 +1,26 @@
 import React, { useEffect, useState } from "react";
 import { SpinnerImg } from "../../loader/Loader";
-import "./productList.scss";
+import "./casalList.scss";
 import { FaEdit, FaTrashAlt } from "react-icons/fa";
 import { AiOutlineEye } from "react-icons/ai";
 import Search from "../../search/Search";
 import { useDispatch, useSelector } from "react-redux";
 import {
-  FILTER_PRODUCTS,
-  selectFilteredPoducts,
-} from "../../../redux/features/product/filterSlice";
+  FILTER_CASAIS,
+  selectFilteredCasais,
+} from "../../../redux/features/casal/filterSlice";
 import ReactPaginate from "react-paginate";
 import { confirmAlert } from "react-confirm-alert";
 import "react-confirm-alert/src/react-confirm-alert.css";
 import {
-  deleteProduct,
-  getProducts,
-} from "../../../redux/features/product/productSlice";
+  deleteCasal,
+  getCasais,
+} from "../../../redux/features/casal/casalSlice";
 import { Link } from "react-router-dom";
 
-const ProductList = ({ products, isLoading }) => {
+const CasalList = ({ casais, isLoading }) => {
   const [search, setSearch] = useState("");
-  const filteredProducts = useSelector(selectFilteredPoducts);
+  const filteredCasais = useSelector(selectFilteredCasais);
 
   const dispatch = useDispatch();
 
@@ -32,20 +32,20 @@ const ProductList = ({ products, isLoading }) => {
     return text;
   };
 
-  const delProduct = async (id) => {
+  const delCasal = async (id) => {
     console.log(id);
-    await dispatch(deleteProduct(id));
-    await dispatch(getProducts());
+    await dispatch(deleteCasal(id));
+    await dispatch(getCasais());
   };
 
   const confirmDelete = (id) => {
     confirmAlert({
-      title: "Delete Product",
-      message: "Are you sure you want to delete this product.",
+      title: "Delete casal",
+      message: "Are you sure you want to delete this casal.",
       buttons: [
         {
           label: "Delete",
-          onClick: () => delProduct(id),
+          onClick: () => delCasal(id),
         },
         {
           label: "Cancel",
@@ -64,22 +64,22 @@ const ProductList = ({ products, isLoading }) => {
   useEffect(() => {
     const endOffset = itemOffset + itemsPerPage;
 
-    setCurrentItems(filteredProducts.slice(itemOffset, endOffset));
-    setPageCount(Math.ceil(filteredProducts.length / itemsPerPage));
-  }, [itemOffset, itemsPerPage, filteredProducts]);
+    setCurrentItems(filteredCasais.slice(itemOffset, endOffset));
+    setPageCount(Math.ceil(filteredCasais.length / itemsPerPage));
+  }, [itemOffset, itemsPerPage, filteredCasais]);
 
   const handlePageClick = (event) => {
-    const newOffset = (event.selected * itemsPerPage) % filteredProducts.length;
+    const newOffset = (event.selected * itemsPerPage) % filteredCasais.length;
     setItemOffset(newOffset);
   };
   //   End Pagination
 
   useEffect(() => {
-    dispatch(FILTER_PRODUCTS({ products, search }));
-  }, [products, search, dispatch]);
+    dispatch(FILTER_CASAIS({ casais, search }));
+  }, [casais, search, dispatch]);
 
   return (
-    <div className="product-list">
+    <div className="casal-list">
       <hr />
       <div className="table">
         <div className="--flex-between --flex-dir-column">
@@ -97,8 +97,8 @@ const ProductList = ({ products, isLoading }) => {
         {isLoading && <SpinnerImg />}
 
         <div className="table">
-          {!isLoading && products.length === 0 ? (
-            <p>-- No product found, please add a product...</p>
+          {!isLoading && casais.length === 0 ? (
+            <p>-- No casal found, please add a casal...</p>
           ) : (
             <table>
               <thead>
@@ -114,8 +114,8 @@ const ProductList = ({ products, isLoading }) => {
               </thead>
 
               <tbody>
-                {currentItems.map((product, index) => {
-                  const { _id, name, category, price, quantity } = product;
+                {currentItems.map((casal, index) => {
+                  const { _id, name, category, price, quantity } = casal;
                   return (
                     <tr key={_id}>
                       <td>{index + 1}</td>
@@ -132,12 +132,12 @@ const ProductList = ({ products, isLoading }) => {
                       </td>
                       <td className="icons">
                         <span>
-                          <Link to={`/product-detail/${_id}`}>
+                          <Link to={`/casal-detail/${_id}`}>
                             <AiOutlineEye size={25} color={"purple"} />
                           </Link>
                         </span>
                         <span>
-                          <Link to={`/edit-product/${_id}`}>
+                          <Link to={`/edit-casal/${_id}`}>
                             <FaEdit size={20} color={"green"} />
                           </Link>
                         </span>
@@ -175,4 +175,4 @@ const ProductList = ({ products, isLoading }) => {
   );
 };
 
-export default ProductList;
+export default CasalList;

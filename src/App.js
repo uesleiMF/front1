@@ -14,9 +14,9 @@ import "react-toastify/dist/ReactToastify.css";
 import { useDispatch } from "react-redux";
 import { getLoginStatus } from "./services/authService";
 import { SET_LOGIN } from "./redux/features/auth/authSlice";
-import AddProduct from "./pages/addProduct/AddProduct";
-import ProductDetail from "./components/product/productDetail/ProductDetail";
-import EditProduct from "./pages/editProduct/EditProduct";
+import AddCasal from "./pages/addCasal/AddCasal";
+import CasalDetail from "./components/casal/casalDetail/CasalDetail";
+import EditCasal from "./pages/editCasal/EditCasal";
 import Profile from "./pages/profile/Profile";
 import EditProfile from "./pages/profile/EditProfile";
 import Contact from "./pages/contact/Contact";
@@ -55,31 +55,31 @@ function App() {
           }
         />
         <Route
-          path="/add-product"
+          path="/add-casal"
           element={
             <Sidebar>
               <Layout>
-                <AddProduct />
+                <AddCasal />
               </Layout>
             </Sidebar>
           }
         />
         <Route
-          path="/product-detail/:id"
+          path="/casal-detail/:id"
           element={
             <Sidebar>
               <Layout>
-                <ProductDetail />
+                <CasalDetail />
               </Layout>
             </Sidebar>
           }
         />
         <Route
-          path="/edit-product/:id"
+          path="/edit-casal/:id"
           element={
             <Sidebar>
               <Layout>
-                <EditProduct />
+                <EditCasal />
               </Layout>
             </Sidebar>
           }

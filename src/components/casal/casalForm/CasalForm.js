@@ -3,24 +3,24 @@ import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 import Card from "../../card/Card";
 
-import "./ProductForm.scss";
+import "./CasalForm.scss";
 
-const ProductForm = ({
-  product,
-  productImage,
+const CasalForm = ({
+  casal,
+  casalImage,
   imagePreview,
   description,
   setDescription,
   handleInputChange,
   handleImageChange,
-  saveProduct,
+  saveCasal,
 }) => {
   return (
-    <div className="add-product">
+    <div className="add-casal">
       <Card cardClass={"card"}>
-        <form onSubmit={saveProduct}>
+        <form onSubmit={saveCasal}>
           <Card cardClass={"group"}>
-            <label>Product Image</label>
+            <label>casal Image</label>
             <code className="--color-dark">
               Supported Formats: jpg, jpeg, png
             </code>
@@ -32,60 +32,60 @@ const ProductForm = ({
 
             {imagePreview != null ? (
               <div className="image-preview">
-                <img src={imagePreview} alt="product" />
+                <img src={imagePreview} alt="casal" />
               </div>
             ) : (
               <p>No image set for this poduct.</p>
             )}
           </Card>
-          <label>Product Name:</label>
+          <label>casal Name:</label>
           <input
             type="text"
-            placeholder="Product name"
+            placeholder="casal name"
             name="name"
-            value={product?.name}
+            value={casal?.name}
             onChange={handleInputChange}
           />
 
-          <label>Product Category:</label>
+          <label>casal Category:</label>
           <input
             type="text"
-            placeholder="Product Category"
+            placeholder="casal Category"
             name="category"
-            value={product?.category}
+            value={casal?.category}
             onChange={handleInputChange}
           />
 
-          <label>Product Price:</label>
+          <label>casal Price:</label>
           <input
             type="text"
-            placeholder="Product Price"
+            placeholder="casal Price"
             name="price"
-            value={product?.price}
+            value={casal?.price}
             onChange={handleInputChange}
           />
 
-          <label>Product Quantity:</label>
+          <label>casal Quantity:</label>
           <input
             type="text"
-            placeholder="Product Quantity"
+            placeholder="casal Quantity"
             name="quantity"
-            value={product?.quantity}
+            value={casal?.quantity}
             onChange={handleInputChange}
           />
 
-          <label>Product Description:</label>
+          <label>casal Description:</label>
           <ReactQuill
             theme="snow"
             value={description}
             onChange={setDescription}
-            modules={ProductForm.modules}
-            formats={ProductForm.formats}
+            modules={CasalForm.modules}
+            formats={CasalForm.formats}
           />
 
           <div className="--my">
             <button type="submit" className="--btn --btn-primary">
-              Save Product
+              Save casal
             </button>
           </div>
         </form>
@@ -94,7 +94,7 @@ const ProductForm = ({
   );
 };
 
-ProductForm.modules = {
+CasalForm.modules = {
   toolbar: [
     [{ header: "1" }, { header: "2" }, { font: [] }],
     [{ size: [] }],
@@ -110,7 +110,7 @@ ProductForm.modules = {
     ["clean"],
   ],
 };
-ProductForm.formats = [
+CasalForm.formats = [
   "header",
   "font",
   "size",
@@ -131,4 +131,4 @@ ProductForm.formats = [
   "align",
 ];
 
-export default ProductForm;
+export default CasalForm;
