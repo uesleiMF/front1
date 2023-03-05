@@ -10,7 +10,7 @@ const menu = [
   {
     title: "Adicionar Casais",
     icon: <GiLovers/>,
-    path: "/add-product",
+    path: "/add-casal",
   },
   {
     title: "Conta",
