@@ -17,7 +17,7 @@ import {
 
 // Icons
 const earningIcon = <AiFillDollarCircle size={40} color="#fff" />;
-const productIcon = <ImManWoman size={40} color="#fff" />;
+const casalIcon = <ImManWoman size={40} color="#fff" />;
 const categoryIcon = <BiCategory size={40} color="#fff" />;
 const outOfStockIcon = <BsCartX size={40} color="#fff" />;
 
@@ -43,7 +43,7 @@ const CasalSummary = ({ casais }) => {
       <h3 className="--mt">Inventory Stats</h3>
       <div className="info-summary">
         <InfoBox
-          icon={productIcon}
+          icon={casalIcon}
           title={"Total casais"}
           count={casais.length}
           bgColor="card1"
