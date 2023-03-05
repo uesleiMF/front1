@@ -1,32 +1,66 @@
 .profile {
   .card {
-    max-width: 500px;
+    width: 80%;
+    max-width: 350px;
     display: flex;
-    justify-content: flex-start;
-
-    padding: 2rem 1;
+    justify-content: flex;
+    padding-right: 0.1rem;
+    padding-left: 0.1rem;
+    align-items: stretch;
+    height: 80%;
 
     span.profile-photo {
       text-align: center;
     }
 
     img {
-      width: 90%;
-      max-width: 450px;
-      padding-right: 1rem;
-      padding-left: 1rem;
+      
+      width: 15rem;
+      border-radius: 15%;
+      max-width: 400px;
+      padding-right: 2rem;
+      padding-left: 2rem;
     }
     span.profile-data {
-      margin: 0 1rem;
+      margin: 3 4rem;
     }
+    
     span.profile-data > * {
-      border-top: 1px solid #ccc;
-      padding: 5px 0;
+      border-top: 4px solid #dd77ddbd;
+      padding: 4px 0;
     }
   }
 }
 
-@media screen and (max-width: 500px) {
+form {
+  label {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-dark);
+  }
+  input[type="text"],
+  input[type="number"],
+  input[type="file"],
+  input[type="email"],
+  select,
+  input[type="password"] {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 100%;
+    border: 1px solid #777;
+    border-radius: 3px;
+    outline: none;
+  }
+}
+
+
+
+
+@media screen and (max-width: 400px) {
   span.profile-photo {
     margin: auto;
   }

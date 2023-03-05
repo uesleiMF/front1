@@ -1,11 +1,26 @@
 .casal-detail {
-  margin-bottom: 5rem;
-  width: 100%;
-  max-width: 500px;
+  margin-bottom: 2rem;
+  width: 80%;
+  max-width: 300px;
+  
+  img {
+    width: 23rem;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+
+  }
+  
   .card {
-    width: 100%;
-    max-width: 500px;
-    padding: 1rem;
+    width: 80%;
+    max-width: 350px;
+    display: flex;
+    justify-content: flex;
+    padding-right: 0.1rem;
+    padding-left: 0.1rem;
+    align-items: stretch;
+    height: 80%;
+    
   }
   .detail {
     & > * {
@@ -13,10 +28,11 @@
     }
     .badge {
       background-color: var(--color-danger);
-      color: #fff;
+      color: #caa6bf;
       padding-left: 2px;
       padding-right: 2px;
-      border-radius: 3px;
+      border-radius: 5px;
+      height: 80%;
     }
     p b {
       color: var(--dark-blue);
@@ -26,5 +42,6 @@
 
 .group {
   border: 1px solid var(--dark-blue);
-  padding: 5px;
+  padding: 2px;
+  height: 100%;
 }
