@@ -1,11 +1,16 @@
 import { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/Home";
+//import Home from "./pages/Home/Home";
 import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
 import Forgot from "./pages/auth/Forgot";
 import Reset from "./pages/auth/Reset";
 import Dashboard from "./pages/dashboard/Dashboard";
+import Pag from "./pages/Pag/Pag";
+import Sobrenos from "./pages/Sobrenos/Sobrenos";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Player from "./pages/Player/App";
 import Sidebar from "./components/sidebar/Sidebar";
 import Layout from "./components/layout/Layout";
 import axios from "axios";
@@ -36,14 +41,16 @@ function App() {
 
   return (
     <BrowserRouter>
+     <Navbar/>
       <ToastContainer />
       <Routes>
-        <Route path="/" element={<Home />} />
+      <Route path="/" element={<Pag/>} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/forgot" element={<Forgot />} />
         <Route path="/resetpassword/:resetToken" element={<Reset />} />
-
+        <Route path="/sobrenos" element={<Sobrenos />} />
+        <Route path="/app" element={<Player />} />
         <Route
           path="/dashboard"
           element={
@@ -115,6 +122,7 @@ function App() {
           }
         />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
