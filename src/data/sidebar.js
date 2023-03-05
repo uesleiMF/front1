@@ -1,33 +1,33 @@
 import { FaTh, FaRegChartBar, FaCommentAlt } from "react-icons/fa";
-import { BiImageAdd } from "react-icons/bi";
+import { GiLovers } from "react-icons/gi";
 
 const menu = [
   {
-    title: "Dashboard",
+    title: "Painel",
     icon: <FaTh />,
     path: "/dashboard",
   },
   {
-    title: "Add casal",
-    icon: <BiImageAdd />,
-    path: "/add-casal",
+    title: "Adicionar Casais",
+    icon: <GiLovers/>,
+    path: "/add-product",
   },
   {
-    title: "Account",
+    title: "Conta",
     icon: <FaRegChartBar />,
     childrens: [
       {
-        title: "Profile",
+        title: "Perfil",
         path: "/profile",
       },
       {
-        title: "Edit Profile",
+        title: "Editar Perfil",
         path: "/edit-profile",
       },
     ],
   },
   {
-    title: "Report Bug",
+    title: "Relatar Bug",
     icon: <FaCommentAlt />,
     path: "/contact-us",
   },

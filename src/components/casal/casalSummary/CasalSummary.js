@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import "./CasalSummary.scss";
 import { AiFillDollarCircle } from "react-icons/ai";
-import { BsCart4, BsCartX } from "react-icons/bs";
+import { BsCartX } from "react-icons/bs";
+import {ImManWoman} from "react-icons/im";
 import { BiCategory } from "react-icons/bi";
 import InfoBox from "../../infoBox/InfoBox";
 import { useDispatch, useSelector } from "react-redux";
@@ -16,7 +17,7 @@ import {
 
 // Icons
 const earningIcon = <AiFillDollarCircle size={40} color="#fff" />;
-const productIcon = <BsCart4 size={40} color="#fff" />;
+const productIcon = <ImManWoman size={40} color="#fff" />;
 const categoryIcon = <BiCategory size={40} color="#fff" />;
 const outOfStockIcon = <BsCartX size={40} color="#fff" />;
 
