@@ -66,7 +66,7 @@ const CasalDetail = () => {
               <b>&rarr; Category : </b> {casal.category}
             </p>
             <p>
-              <b>&rarr; Price : </b> {"$"}
+              <b>&rarr; Price : </b> {"R$"}
               {casal.price}
             </p>
             <p>

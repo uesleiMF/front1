@@ -40,9 +40,9 @@ const CasalList = ({ casais, isLoading }) => {
 
   const confirmDelete = (id) => {
     confirmAlert({
-      title: "Delete casal",
-      message: "Are you sure you want to delete this casal.",
-      buttons: [
+      title: "Deletar Casal",
+      message: "Tem certeza que deseja excluir este Casal.",
+          buttons: [
         {
           label: "Delete",
           onClick: () => delCasal(id),
@@ -84,7 +84,7 @@ const CasalList = ({ casais, isLoading }) => {
       <div className="table">
         <div className="--flex-between --flex-dir-column">
           <span>
-            <h3>Inventory Items</h3>
+          <h3>Lista de Casais</h3>
           </span>
           <span>
             <Search
@@ -98,36 +98,39 @@ const CasalList = ({ casais, isLoading }) => {
 
         <div className="table">
           {!isLoading && casais.length === 0 ? (
-            <p>-- No casal found, please add a casal...</p>
+         <p>-- Nenhum casal encontrado, adicione um casal...</p>
           ) : (
             <table>
               <thead>
                 <tr>
-                  <th>s/n</th>
-                  <th>Name</th>
-                  <th>Category</th>
-                  <th>Price</th>
-                  <th>Quantity</th>
-                  <th>Value</th>
-                  <th>Action</th>
+                <th>nº</th>
+                  <th>Nome-Casal</th>
+                  <th>Cargo</th>
+                  <th>Ofertas</th>
+                  <th>Qtd</th>
+                  <th>Aniversario</th>
+                  <th>Total</th>
+                  <th>Ação</th>
                 </tr>
               </thead>
 
               <tbody>
                 {currentItems.map((casal, index) => {
-                  const { _id, name, category, price, quantity } = casal;
+                  const { _id, name, category, price, date, quantity }  = casal;
                   return (
                     <tr key={_id}>
                       <td>{index + 1}</td>
                       <td>{shortenText(name, 16)}</td>
                       <td>{category}</td>
                       <td>
-                        {"$"}
+                        {"R$"}
                         {price}
                       </td>
+                     
                       <td>{quantity}</td>
+                      <td>{date}</td>
                       <td>
-                        {"$"}
+                        {"R$"}
                         {price * quantity}
                       </td>
                       <td className="icons">

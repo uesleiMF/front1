@@ -40,7 +40,7 @@ const CasalSummary = ({ casais }) => {
 
   return (
     <div className="casal-summary">
-      <h3 className="--mt">Inventory Stats</h3>
+      <h3 className="--mt">Casais Cadastrados</h3>
       <div className="info-summary">
         <InfoBox
           icon={casalIcon}
@@ -50,8 +50,8 @@ const CasalSummary = ({ casais }) => {
         />
         <InfoBox
           icon={earningIcon}
-          title={"Total Store Value"}
-          count={`$${formatNumbers(totalStoreValue.toFixed(2))}  `}
+          title={"Total de Ofertas"}
+          count={`R$${formatNumbers(totalStoreValue.toFixed(2))}  `}
           bgColor="card2"
         />
         <InfoBox
@@ -62,7 +62,7 @@ const CasalSummary = ({ casais }) => {
         />
         <InfoBox
           icon={categoryIcon}
-          title={"All Categories"}
+          title={"Cargos"}
           count={category.length}
           bgColor="card4"
         />

@@ -19,11 +19,11 @@ const Header = () => {
     <div className="--pad header">
       <div className="--flex-between">
         <h3>
-          <span className="--fw-thin">Welcome, </span>
+          <p><span className="--fw-thin">Bem Vindos</span></p>
           <span className="--color-danger">{name}</span>
         </h3>
         <button onClick={logout} className="--btn --btn-danger">
-          Logout
+         Sair
         </button>
       </div>
       <hr />
