@@ -67,7 +67,7 @@ const AddCasal = () => {
   return (
     <div>
       {isLoading && <Loader />}
-      <h3 className="--mt">Adicionar novo Casal</h3>
+      <h3 className="--mt">Adicionar Novo Casal</h3>
       <CasalForm
         casal={casal}
         casalImage={casalImage}
