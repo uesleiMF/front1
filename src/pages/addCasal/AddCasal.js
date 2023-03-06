@@ -11,6 +11,7 @@ import {
 const initialState = {
   name: "",
   category: "",
+  date:"",
   quantity: "",
   price: "",
 };
@@ -25,7 +26,7 @@ const AddCasal = () => {
 
   const isLoading = useSelector(selectIsLoading);
 
-  const { name, category, price, quantity } = casal;
+  const { name, category, price, quantity, date } = casal;
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -52,6 +53,7 @@ const AddCasal = () => {
     formData.append("category", category);
     formData.append("quantity", Number(quantity));
     formData.append("price", price);
+    formData.append("date", date);
     formData.append("description", description);
     formData.append("image", casalImage);
 
@@ -65,7 +67,7 @@ const AddCasal = () => {
   return (
     <div>
       {isLoading && <Loader />}
-      <h3 className="--mt">Adicionar novo casalt</h3>
+      <h3 className="--mt">Adicionar novo Casal</h3>
       <CasalForm
         casal={casal}
         casalImage={casalImage}

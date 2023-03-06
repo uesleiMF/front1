@@ -58,6 +58,7 @@ const EditCasal = () => {
     formData.append("category", casal?.category);
     formData.append("quantity", casal?.quantity);
     formData.append("price", casal?.price);
+    formData.append("date", casal?.date);
     formData.append("description", description);
     if (casalImage) {
       formData.append("image", casalImage);
@@ -73,7 +74,7 @@ const EditCasal = () => {
   return (
     <div>
       {isLoading && <Loader />}
-      <h3 className="--mt">Edit casal</h3>
+      <h3 className="--mt">Editar casal</h3>
       <CasalForm
         casal={casal}
         casalImage={casalImage}

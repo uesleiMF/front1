@@ -39,7 +39,7 @@ const CasalDetail = () => {
 
   return (
     <div className="casal-detail">
-      <h3 className="--mt">casal Detail</h3>
+      <h3 className="--mt">Detalhes Casal</h3>
       <Card cardClass="card">
         {isLoading && <SpinnerImg />}
         {casal && (
@@ -51,29 +51,33 @@ const CasalDetail = () => {
                   alt={casal.image.fileName}
                 />
               ) : (
-                <p>No image set for this casal</p>
+                <p>Nenhuma imagem definida para este casal</p>
               )}
             </Card>
             <h4>casal : {stockStatus(casal.quantity)}</h4>
             <hr />
             <h4>
-              <span className="badge">Name: </span> &nbsp; {casal.name}
+              <span className="badge">Nome Casal: </span> &nbsp; {casal.name}
             </h4>
             <p>
               <b>&rarr; SKU : </b> {casal.sku}
             </p>
             <p>
-              <b>&rarr; Category : </b> {casal.category}
+              <b>&rarr; Cargo : </b> {casal.category}
             </p>
             <p>
-              <b>&rarr; Price : </b> {"R$"}
+              <b>&rarr; Oferta : </b> {"R$"}
               {casal.price}
             </p>
             <p>
-              <b>&rarr; Quantity in stock : </b> {casal.quantity}
+              <b>&rarr; QTD : </b> {casal.quantity}
             </p>
             <p>
-              <b>&rarr; Total Value in stock : </b> {"$"}
+              <b>&rarr; Aniversario : </b> {casal.date}
+            </p>
+           
+            <p>
+              <b>&rarr; Total Value in stock : </b> {"R$"}
               {casal.price * casal.quantity}
             </p>
             <hr />

@@ -20,9 +20,9 @@ const CasalForm = ({
       <Card cardClass={"card"}>
         <form onSubmit={saveCasal}>
           <Card cardClass={"group"}>
-            <label>casal Image</label>
+            <label>Imagem do Casal</label>
             <code className="--color-dark">
-              Supported Formats: jpg, jpeg, png
+              Formatos Suportados: jpg, jpeg, png
             </code>
             <input
               type="file"
@@ -35,10 +35,10 @@ const CasalForm = ({
                 <img src={imagePreview} alt="casal" />
               </div>
             ) : (
-              <p>No image set for this poduct.</p>
-            )}
+              <p>Nenhuma imagem definida para este casal.</p>
+              )}
           </Card>
-          <label>casal Name:</label>
+          <label>Nome Casal:</label>
           <input
             type="text"
             placeholder="casal name"
@@ -46,35 +46,43 @@ const CasalForm = ({
             value={casal?.name}
             onChange={handleInputChange}
           />
-
-          <label>casal Category:</label>
+           <label>Aniversario:</label>
           <input
             type="text"
-            placeholder="casal Category"
+            placeholder="Aniversario"
+            name="date"
+            value={casal?.date}
+            onChange={handleInputChange}
+          />
+
+          <label>Cargo:</label>
+          <input
+            type="text"
+            placeholder="cargo"
             name="category"
             value={casal?.category}
             onChange={handleInputChange}
           />
 
-          <label>casal Price:</label>
+          <label>Oferta:</label>
           <input
             type="text"
-            placeholder="casal Price"
+            placeholder="Oferta"
             name="price"
             value={casal?.price}
             onChange={handleInputChange}
           />
 
-          <label>casal Quantity:</label>
+          <label>QTD:</label>
           <input
             type="text"
-            placeholder="casal Quantity"
+            placeholder="Qtd"
             name="quantity"
             value={casal?.quantity}
             onChange={handleInputChange}
           />
 
-          <label>casal Description:</label>
+          <label>Descrição do Casal:</label>
           <ReactQuill
             theme="snow"
             value={description}
@@ -85,7 +93,7 @@ const CasalForm = ({
 
           <div className="--my">
             <button type="submit" className="--btn --btn-primary">
-              Save casal
+              Salvar Casal
             </button>
           </div>
         </form>

@@ -109,10 +109,10 @@ const EditProfile = () => {
               <label>Email:</label>
               <input type="text" name="email" value={profile?.email} disabled />
               <br />
-              <code>Email cannot be changed.</code>
+              <code>O e-mail não pode ser alterado.</code>
             </p>
             <p>
-              <label>Phone:</label>
+              <label>Fone:</label>
               <input
                 type="text"
                 name="phone"
@@ -121,21 +121,21 @@ const EditProfile = () => {
               />
             </p>
             <p>
-              <label>Bio:</label>
+              <label>Biografia:</label>
               <textarea
                 name="bio"
                 value={profile?.bio}
                 onChange={handleInputChange}
-                cols="30"
-                rows="10"
+                cols="15"
+                rows="8"
               ></textarea>
             </p>
             <p>
-              <label>Photo:</label>
+              <label>Foto:</label>
               <input type="file" name="image" onChange={handleImageChange} />
             </p>
             <div>
-              <button className="--btn --btn-primary">Edit Profile</button>
+              <button className="--btn --btn-primary">Editar Perfil</button>
             </div>
           </span>
         </form>

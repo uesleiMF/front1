@@ -164,7 +164,7 @@ const casalSlice = createSlice({
         state.isError = false;
         console.log(action.payload);
         state.casais.push(action.payload);
-        toast.success("casal added successfully");
+        toast.success("casal adicionado com successo");
       })
       .addCase(createCasal.rejected, (state, action) => {
         state.isLoading = false;
@@ -195,7 +195,7 @@ const casalSlice = createSlice({
         state.isLoading = false;
         state.isSuccess = true;
         state.isError = false;
-        toast.success("casal deleted successfully");
+        toast.success("casal deletado com successo");
       })
       .addCase(deleteCasal.rejected, (state, action) => {
         state.isLoading = false;
@@ -225,7 +225,7 @@ const casalSlice = createSlice({
         state.isLoading = false;
         state.isSuccess = true;
         state.isError = false;
-        toast.success("casal updated successfully");
+        toast.success("casal atualizado com successo");
       })
       .addCase(updateCasal.rejected, (state, action) => {
         state.isLoading = false;
