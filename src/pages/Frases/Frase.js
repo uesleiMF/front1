@@ -9,12 +9,30 @@ class Frase extends Component{
     }
     this.quebraBiscoito = this.quebraBiscoito.bind(this);
 
-    this.frases = [' 19 Se vocês estiverem dispostos a obedecer comerão os melhores frutos desta terra;',
+    this.frases = ['Agora, pois, permanecem a fé, a esperança e o amor, estes três, mas o maior destes é o amor. 1 Coríntios 13:13 ',
 
-    ' Isais 1:19 Se vocês estiverem dispostos a obedecer comerão os melhores frutos desta terra;',
+    'Amor tudo sofre, tudo crê, tudo espera, tudo suporta, o amor jamais acaba. Corintios, 13 - 7 ',
   
-    'Acredite  em milagres, mas não dependa deles.',
-    'A maior barreira para o sucesso é o medo do fracasso.']
+    'Tenham amor, pois o amor une perfeitamente todas as coisas. O amor é o vínculo da perfeição. colossenses 3:14',
+   
+    'Assim, eles já não são dois, mas sim uma só carne. Portanto, o que Deus uniu, ninguém separe.Mateus 19:6',
+    
+    'Quem encontra uma esposa encontra algo excelente; recebeu uma bênção do Senhor.Provérbios 18:22',
+   
+    'Então o Senhor Deus declarou: "Não é bom que o homem esteja só; farei para ele alguém que o auxilie e lhe corresponda".Gênesis 2:18',
+    
+    'Maridos, ame cada um a sua mulher, assim como Cristo amou a igreja e entregou-se por ela.Efésios 5:25',
+
+    'Mulheres, sujeite-se cada uma ao seu marido, como convém a quem está no Senhor. Maridos, cada um ame a sua mulher e não a tratem com amargura.Colossenses 3:18-19',
+
+    'Toda mulher sábia edifica a sua casa, mas a tola a derruba com as próprias mãos.Provérbios 14:1',
+
+    'O amor é paciente, o amor é bondoso. Não inveja, não se vangloria, não se orgulha. Não maltrata, não procura seus interesses, não se ira facilmente, não guarda rancor. O amor não se alegra com a injustiça, mas se alegra com a verdade. Tudo sofre, tudo crê, tudo espera, tudo suporta.1 Coríntios 13:4-7',
+
+    'As muitas águas não podem apagar este amor, nem os rios afogá-lo; ainda que alguém desse todos os bens de sua casa pelo amor, certamente o desprezariam.Cânticos 8:7',  
+  
+    
+  ]
   }
 
   quebraBiscoito(){

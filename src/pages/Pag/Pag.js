@@ -14,7 +14,7 @@ import c7 from "../../components/Img/c7.jpg";
 import c8 from "../../components/Img/c8.jpg";
 import c9 from "../../components/Img/c9.jpg";
 import ieq from "../../components/Img/ieq2.jpg";
-import bi from '../../assets/biblia.jpg';
+import bi from '../../assets/bib.gif';
 
 import { GrInstagram } from "react-icons/gr";
 import { FaFacebookSquare } from "react-icons/fa";
