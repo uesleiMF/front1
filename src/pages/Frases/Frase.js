@@ -7,7 +7,7 @@ class Frase extends Component{
     this.state = {
       textoFrase: ''
     }
-    this.quebraBiscoito = this.quebraBiscoito.bind(this);
+    this.palavraEdificante = this.palavraEdificante.bind(this);
 
     this.frases = ['Agora, pois, permanecem a fé, a esperança e o amor, estes três, mas o maior destes é o amor. 1 Coríntios 13:13 ',
 
@@ -35,7 +35,7 @@ class Frase extends Component{
   ]
   }
 
-  quebraBiscoito(){
+  palavraEdificante(){
     let state = this.state;
 
     let numeroAleatorio = Math.floor(Math.random() * this.frases.length);
@@ -47,14 +47,17 @@ class Frase extends Component{
   render(){
     return(
       <div className="container">
-      <div className="card mt-4 mb-3 bg-warning bg-opacity-75">
+      <div className="card mt-4 mb-4 bg-warning bg-opacity-50">
        
         <img className='img' src={img} alt="Palavras da Biblia" />
        
-        <Botao nome=  'PALAVRAS DE SABEDORIA' acaoBtn={this.quebraBiscoito}/>
+        <Botao nome=  'PALAVRAS**EDIFICANDO**CASAMENTOS' acaoBtn={this.palavraEdificante}/>
       
         <h3 className='textoFrase'>{this.state.textoFrase}</h3>
+     
+       
       </div>
+      
       </div>
      
       
@@ -65,10 +68,12 @@ class Frase extends Component{
 class Botao extends Component{
   render(){
     return(
-      <div className="card mt-4 mb-3 bg-warning bg-opacity-75">
+     
+            
         <button onClick={this.props.acaoBtn}>{this.props.nome}</button>
        
-      </div>
+
+      
     )
   }
 }

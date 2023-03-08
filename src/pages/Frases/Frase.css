@@ -1,6 +1,4 @@
-.Frase {
-  text-align: center;
-}
+
 .img{
   width: 30rem;
     border-radius: 15%;
@@ -14,15 +12,20 @@
   text-align: center;
   height: 400px;
 }
-.button{
+
+
+button{
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
   font-style: italic;
-  color: #505755;
-  text-align: center;
-  height: 400px;
+  font-size: 14px;
+  background-color: rgb(117, 212, 212);
+  color: #fff;
+  margin: 23px;
+  padding: 5px 5px;
+ 
 }
-
-
-
 
 
   
