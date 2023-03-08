@@ -47,17 +47,20 @@ h6 {
   margin: auto;
   display: block;
  
-}
+  
+  }
+
 
 img {
     width: 10rem;
-    border-radius: 30%;
+    border-radius: 10%;
     margin: auto;
     display: block;
   
 
   }
 `;
+
 export const Social = styled.div`
   a {
     font-size: 3.5rem;

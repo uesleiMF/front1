@@ -2,7 +2,7 @@
 import React from "react";
 import { Logo } from "./styles";
 import { CCarousel, CCarouselItem, CImage } from "@coreui/react";
-
+import { Link } from 'react-router-dom';
 import c0 from "../../components/Img/c0.jpg";
 import c1 from "../../components/Img/c1.jpg";
 import c2 from "../../components/Img/c2.jpg";
@@ -14,6 +14,7 @@ import c7 from "../../components/Img/c7.jpg";
 import c8 from "../../components/Img/c8.jpg";
 import c9 from "../../components/Img/c9.jpg";
 import ieq from "../../components/Img/ieq2.jpg";
+import bi from '../../assets/biblia.jpg';
 
 import { GrInstagram } from "react-icons/gr";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -30,6 +31,19 @@ export default function Home() {
         <div className="card-title">
           <div className="row">
             <div className="col">
+          
+            <Logo>
+              
+            <Link to="/frase">
+              
+              <c>  <img src={bi} alt="bo"  />   </c>
+               
+                  </Link>         
+           
+                  </Logo>
+    
+
+
               <h3 className="mx-3 my-3 mb-0 text-center "> REDE DE CASAIS</h3>
               <h4 className="mx-3 my-3 text-center"> AMAI SEMPRE</h4>
             </div>

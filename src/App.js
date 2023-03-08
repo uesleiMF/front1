@@ -25,6 +25,7 @@ import EditCasal from "./pages/editCasal/EditCasal";
 import Profile from "./pages/profile/Profile";
 import EditProfile from "./pages/profile/EditProfile";
 import Contact from "./pages/contact/Contact";
+import Frase from "./pages/Frases/Frase";
 
 axios.defaults.withCredentials = true;
 
@@ -51,6 +52,8 @@ function App() {
         <Route path="/resetpassword/:resetToken" element={<Reset />} />
         <Route path="/sobrenos" element={<Sobrenos />} />
         <Route path="/app" element={<Player />} />
+        <Route path="/frase" element={<Frase />} />
+        
         <Route
           path="/dashboard"
           element={

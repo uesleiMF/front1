@@ -1,0 +1,29 @@
+.Frase {
+  text-align: center;
+}
+.img{
+  width: 30rem;
+    border-radius: 15%;
+    margin: auto;
+    display: block;
+}
+
+.textoFrase{
+  font-style: italic;
+  color: #505755;
+  text-align: center;
+  height: 400px;
+}
+.button{
+  font-style: italic;
+  color: #505755;
+  text-align: center;
+  height: 400px;
+}
+
+
+
+
+
+  
+
