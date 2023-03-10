@@ -49,10 +49,10 @@ class Frase extends Component{
       <div className="container">
       <div className="card mt-4 mb-4 bg-warning bg-opacity-50">
        
-      <h2 className="mx-3 my-3 text-center text-success">
-      PALAVRAS EDIFICANTES </h2>
-      <h2 className="mx-3 my-3 text-center text-success">
-      PARA SEU CASAMENTO </h2>
+      <h3 className="mx-3 my-3 text-center text-success">
+      PALAVRAS EDIFICANTES </h3>
+      <h4 className="mx-3 my-3 text-center text-success">
+      PARA SEU CASAMENTO </h4>
 
         <img className='img' src={img} alt="Palavras da Biblia" />
        
