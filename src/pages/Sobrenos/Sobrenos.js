@@ -12,35 +12,27 @@ export default function Sobrenos() {
       <div className="card mt-4 bg-warning bg-opacity-75">
         <div className="card-title">
           <div className="row">
-           
-           
-           
-          <div className="Letras">
-          <Typewriter
-  
-  onInit={(typewriter)=> {
+            <div className="Letras">
+              <Typewriter
+                onInit={(typewriter) => {
+                  typewriter
 
-  typewriter
-   
-  .typeString("REDE DE CASAIS AMAI SEMPRE  ")
-  .pauseFor(700)
-  
-  .typeString("UM PROJETO QUE NASCEU NO CORAÇÃO DE DEUS. ")
-  .pauseFor(700)
-  
-  .typeString("UM POUQUINHO DA HISTORIA DESTA REDE TÃO ABENÇOADA QUE CADA DIA CRESCE ")
-  .pauseFor(700)
-  
-  .typeString("UM MINISTERIO DE CASAIS DA IEQ-MARABA-PA")
-  .start();
+                    .typeString("REDE DE CASAIS AMAI SEMPRE  ")
+                    .pauseFor(700)
 
+                    .typeString("UM PROJETO QUE NASCEU NO CORAÇÃO DE DEUS. ")
+                    .pauseFor(700)
 
+                    .typeString(
+                      "UM POUQUINHO DA HISTORIA DESTA REDE TÃO ABENÇOADA QUE CADA DIA CRESCE "
+                    )
+                    .pauseFor(700)
 
-
-
-}}
-  />
-    </div>
+                    .typeString("UM MINISTERIO DE CASAIS DA IEQ-MARABA-PA")
+                    .start();
+                }}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -76,7 +68,6 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
                 <h3 className="card-title">(94)99972-7849</h3>
               </Social>
 
-
               <Social>
                 <a
                   href="  https://api.whatsapp.com/send?phone=5591982390708&data=AWDy3Hf-oQfWn7Syzd8pJ_MlOjYIoghvjhfgubtS_qKP9hVbOUKymlrhXKhaxMF_4Z7ypOsbpTadf2EkRTGbXsjO7NYeJx3i
@@ -89,9 +80,6 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
                 </a>
                 <h3 className="card-title">(94)99972-7849</h3>
               </Social>
-
-
-
             </div>
           </div>
 
@@ -121,7 +109,6 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
                 </a>
                 <h3 className="card-title">(94)99972-7849</h3>
               </Social>
-
 
               <Social>
                 <a
@@ -172,7 +159,6 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
                 <h3 className="card-title">(94)99972-7849</h3>
               </Social>
 
-
               <Social>
                 <a
                   href="  https://api.whatsapp.com/send?phone=5591982390708&data=AWDy3Hf-oQfWn7Syzd8pJ_MlOjYIoghvjhfgubtS_qKP9hVbOUKymlrhXKhaxMF_4Z7ypOsbpTadf2EkRTGbXsjO7NYeJx3i
@@ -215,7 +201,6 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
                 <h3 className="card-title">(94)99972-7849</h3>
               </Social>
 
-
               <Social>
                 <a
                   href="  https://api.whatsapp.com/send?phone=5591982390708&data=AWDy3Hf-oQfWn7Syzd8pJ_MlOjYIoghvjhfgubtS_qKP9hVbOUKymlrhXKhaxMF_4Z7ypOsbpTadf2EkRTGbXsjO7NYeJx3i
@@ -257,7 +242,6 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
                 </a>
                 <h3 className="card-title">(94)99972-7849</h3>
               </Social>
-
 
               <Social>
                 <a
