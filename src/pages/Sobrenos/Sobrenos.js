@@ -19,7 +19,8 @@ export default function Sobrenos() {
 
                     .typeString ("REDE DE CASAIS AMAI SEMPRE  ")
                     .pauseFor(700)
-
+                    
+                  
                     .typeString("UM PROJETO QUE NASCEU NO CORAÇÃO DE DEUS. ")
                     .pauseFor(700)
 
