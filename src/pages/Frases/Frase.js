@@ -48,12 +48,11 @@ class Frase extends Component{
     return(
       <div className="container">
       <div className="card mt-4 mb-4 bg-warning bg-opacity-50">
-       
-      <h3 className="mx-3 my-3 text-center text-success">
-      PALAVRAS EDIFICANTES </h3>
-      <h4 className="mx-3 my-3 text-center text-success">
-      PARA SEU CASAMENTO </h4>
-
+      <p></p>
+      <p className="mx-4 my-4 mb-0 text-center fs-2">  PALAVRAS EDIFICANTES</p>
+      <p className="mx-4 my-4 mb-0 text-center fs-3"> PARA SEU CASAMENTO</p>
+<p></p>
+     
         <img className='img' src={img} alt="Palavras da Biblia" />
        
         <Botao nome=  'CLIQUE AQUI' acaoBtn={this.palavraEdificante}/>
