@@ -17,7 +17,7 @@ export default function Sobrenos() {
                 onInit={(typewriter) => {
                   typewriter
 
-                    .typeString("REDE DE CASAIS AMAI SEMPRE  ")
+                    .typeString ("REDE DE CASAIS AMAI SEMPRE  ")
                     .pauseFor(700)
 
                     .typeString("UM PROJETO QUE NASCEU NO CORAÇÃO DE DEUS. ")
