@@ -28,3 +28,15 @@
   font-size: 0.9em;
   font-weight:Bold;
 }
+
+.Letras {
+  font-family: sans-serif;
+  font-weight:300;
+  font-size:15px;
+  text-align: center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:20vh;
+  color:  #9b2695;
+}

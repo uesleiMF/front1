@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-//import Home from "./pages/Home/Home";
+import Letras from "./pages/Letras/Letras";
 import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
 import Forgot from "./pages/auth/Forgot";
@@ -53,6 +53,7 @@ function App() {
         <Route path="/sobrenos" element={<Sobrenos />} />
         <Route path="/app" element={<Player />} />
         <Route path="/frase" element={<Frase />} />
+        <Route path="/letras" element={<Letras />} />
         
         <Route
           path="/dashboard"

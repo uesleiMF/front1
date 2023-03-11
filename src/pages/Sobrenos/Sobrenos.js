@@ -2,7 +2,7 @@ import React from "react";
 import { Social } from "./styles";
 import { FaWhatsapp } from "react-icons/fa";
 import c1 from "../../components/Img/uj.png";
-
+import Typewriter from "typewriter-effect";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Sobrenos.css";
 
@@ -12,18 +12,35 @@ export default function Sobrenos() {
       <div className="card mt-4 bg-warning bg-opacity-75">
         <div className="card-title">
           <div className="row">
-            <div className="col">
-              <br></br>
-              <h2 className="mx-3 my-3 text-center text-success">
-                REDE DE CASAIS
-              </h2>
-              <h3 className="mx-3 my-3 text-center text-success">
-                AMAI SEMPRE
-              </h3>
-              <h6 className="mx-3 my-3 text-center text-success">
-                **INFORMAÇÕES-DA-LIDERANÇA**
-              </h6>
-            </div>
+           
+           
+           
+          <div className="Letras">
+          <Typewriter
+  
+  onInit={(typewriter)=> {
+
+  typewriter
+   
+  .typeString("REDE DE CASAIS AMAI SEMPRE  ")
+  .pauseFor(700)
+  
+  .typeString("UM PROJETO QUE NASCEU NO CORAÇÃO DE DEUS. ")
+  .pauseFor(700)
+  
+  .typeString("UM POUQUINHO DA HISTORIA DESTA REDE TÃO ABENÇOADA QUE CADA DIA CRESCE ")
+  .pauseFor(700)
+  
+  .typeString("UM MINISTERIO DE CASAIS DA IEQ-MARABA-PA")
+  .start();
+
+
+
+
+
+}}
+  />
+    </div>
           </div>
         </div>
       </div>
