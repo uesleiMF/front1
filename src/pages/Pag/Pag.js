@@ -2,7 +2,7 @@
 import React from "react";
 import { Logo } from "./styles";
 import { CCarousel, CCarouselItem, CImage } from "@coreui/react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import c0 from "../../components/Img/c0.jpg";
 import c1 from "../../components/Img/c1.jpg";
 import c2 from "../../components/Img/c2.jpg";
@@ -14,7 +14,7 @@ import c7 from "../../components/Img/c7.jpg";
 import c8 from "../../components/Img/c8.jpg";
 import c9 from "../../components/Img/c9.jpg";
 import ieq from "../../components/Img/ieq2.jpg";
-import bi from '../../assets/bib.gif';
+import bi from "../../assets/bib.gif";
 
 import { GrInstagram } from "react-icons/gr";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -31,21 +31,17 @@ export default function Home() {
         <div className="card-title">
           <div className="row">
             <div className="col">
-          
-            <Logo>
-              
-            <Link to="/frase">
-              
-              <c>  <img src={bi} alt="bo"  />   </c>
-               
-                  </Link>         
-           
-                  </Logo>
-    
+              <Logo>
+                <Link to="/frase">
+                  <c>
+                    {" "}
+                    <img src={bi} alt="bo" />{" "}
+                  </c>
+                </Link>
+              </Logo>
 
-
-              <h3 className="mx-3 my-3 mb-0 text-center "> REDE DE CASAIS</h3>
-              <h4 className="mx-3 my-3 text-center"> AMAI SEMPRE</h4>
+              <p className="mx-3 my-3 mb-0 text-center fs-2"> REDE DE CASAIS</p>
+              <p className="mx-3 my-3 text-center fs-3"> AMAI SEMPRE</p>
             </div>
           </div>
         </div>
@@ -141,43 +137,34 @@ export default function Home() {
 
       <div className="card mt-4 bg-info">
         <div className="row mb-3">
-         
-              <h3 className="mx-3 my-3 text-center ">
-                
-                Visite-nós em nossa (Igreja)
-              </h3>
-              <h4 className="mx-3 my-3 text-center "> Ou uma </h4>
-              <h4 className="mx-4 my-4 text-center ">
-             
-                (Celula) mais proxima de sua casa
-              </h4>
+          <p className="mx-3 my-3 mb-0 text-center fs-2">
+            {" "}
+            Visite-nós em nossa (Igreja)
+          </p>
+          <p className="mx-3 my-3 text-center fs-3"> Ou em uma</p>
 
-              <h4 className="mx-3 my-3 text-center">
-              
-                CLIQUE EM UMA DAS IMAGENS ABAIXO:
-              </h4>
+          <p className="mx-3 my-3 mb-0 text-center fs-2">
+            (Celula) mais proxima de sua casa
+          </p>
+          <p className="mx-3 my-3 text-center fs-3">
+            {" "}
+            CLIQUE EM UMA DAS IMAGENS ABAIXO:
+          </p>
 
-            
+          <Logo>
+            <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
+              <img src={ieq} alt="bo" />
+            </a>
+          </Logo>
 
-              <Logo>
-                <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
-                  <img src={ieq} alt="bo" />
-                </a>
+          <p className="mx-3 my-3 text-center fs-3"> IEQ-SEDE</p>
 
-               </Logo>
-
-                <h4 className="mx-3 my-3 text-center ">IEQ</h4>
-                <h5 className="mx-3 my-3 text-center ">
-                  Igreja Do Evangélio Quadrangular
-                </h5>
-                <h5 className="mx-3 my-3 text-center ">
-                  Nova-Marabá ---Marabá-Pá
-                </h5>
-             
-
-            </div>
-          </div>
-
+          <p className="mx-3 my-3 mb-0 text-center fs-2">
+            Igreja Do Evangélio Quadrangular
+          </p>
+          <p className="mx-3 my-3 text-center fs-3"> Marabá-Pá</p>
+        </div>
+      </div>
 
       <div className="card mt-4 bg-success">
         <div className="row mb-3">
@@ -355,10 +342,9 @@ export default function Home() {
       </div>
 
       <div className="card mt-4 mb-3 bg-info">
-        <h5 className="mx-3 my-3 text-center">
-          CONHEÇAM NOSSAS MIDIAS SOCIAIS **MINISTERIO AMAI**!{" "}
-        </h5>
-
+      <p className="mx-3 my-3 mb-0 text-center fs-3"> CONHEÇAM NOSSAS MIDIAS SOCIAIS **MINISTERIO AMAI**</p>
+            
+        
         <Social>
           <a href="https://www.facebook.com/ministerio.amai7">
             <FaFacebookSquare />
