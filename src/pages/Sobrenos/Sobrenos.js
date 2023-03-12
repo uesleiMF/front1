@@ -55,12 +55,12 @@ export default function Sobrenos() {
 
               <p>
                 {" "}
-                <h2 className="card-title ">CASAL--LIDER</h2>
+                <h1 className="card-title ">CASAL--LIDER</h1>
               </p>
-              <h3 className="card-title">Pastores</h3>
-              <h4 className="card-title">Marcos</h4>
-              <h4 className="card-title"> & </h4>
-              <h4 className="card-title">Solange</h4>
+              <h2 className="card-title">PASTORES</h2>
+              <h2 className="card-title">MARCOS</h2>
+              <h2 className="card-title"> & </h2>
+              <h2 className="card-title">SOLANGE</h2>
 
               <Social>
                 <a
@@ -72,7 +72,7 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
                 >
                   <FaWhatsapp />
                 </a>
-                <h3 className="card-title">(94)99972-7849</h3>
+                <h2 className="card-title">(94)99972-7849</h2>
               </Social>
 
               <Social>
@@ -85,7 +85,7 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
                 >
                   <FaWhatsapp />
                 </a>
-                <h3 className="card-title">(94)99972-7849</h3>
+                <h2 className="card-title">(94)99972-7849</h2>
               </Social>
             </div>
           </div>
@@ -98,12 +98,12 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
 
               <p>
                 {" "}
-                <h2 className="card-title">CASAL--LIDER</h2>
+                <h1 className="card-title ">CASAL--LIDER</h1>
               </p>
-              <h3 className="card-title">Pastores</h3>
-              <h4 className="card-title">Pina</h4>
-              <h4 className="card-title"> & </h4>
-              <h4 className="card-title">Carla</h4>
+              <h2 className="card-title">PASTORES</h2>
+              <h2 className="card-title">PINA</h2>
+              <h2 className="card-title"> & </h2>
+              <h2 className="card-title">CARLA</h2>
               <Social>
                 <a
                   href="  https://api.whatsapp.com/send?phone=5591982390708&data=AWDy3Hf-oQfWn7Syzd8pJ_MlOjYIoghvjhfgubtS_qKP9hVbOUKymlrhXKhaxMF_4Z7ypOsbpTadf2EkRTGbXsjO7NYeJx3i
@@ -114,7 +114,7 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
                 >
                   <FaWhatsapp />
                 </a>
-                <h3 className="card-title">(94)99972-7849</h3>
+                <h2 className="card-title">(94)99972-7849</h2>
               </Social>
 
               <Social>
@@ -127,7 +127,7 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
                 >
                   <FaWhatsapp />
                 </a>
-                <h3 className="card-title">(94)99972-7849</h3>
+                <h2 className="card-title">(94)99972-7849</h2>
               </Social>
             </div>
           </div>
@@ -146,12 +146,12 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
 
               <p>
                 {" "}
-                <h2 className="card-title">CASAL</h2>
+                <h1 className="card-title">CASAL</h1>
               </p>
-              <h3 className="card-title">LIDER</h3>
-              <h4 className="card-title">Altair</h4>
-              <h4 className="card-title"> & </h4>
-              <h4 className="card-title">Ellen</h4>
+              <h2 className="card-title">LIDER</h2>
+              <h2 className="card-title">ALTAIR</h2>
+              <h2 className="card-title"> & </h2>
+              <h2 className="card-title">ELLEN</h2>
 
               <Social>
                 <a
@@ -163,7 +163,7 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
                 >
                   <FaWhatsapp />
                 </a>
-                <h3 className="card-title">(94)99972-7849</h3>
+                <h2 className="card-title">(94)99972-7849</h2>
               </Social>
 
               <Social>
@@ -176,7 +176,7 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
                 >
                   <FaWhatsapp />
                 </a>
-                <h3 className="card-title">(94)99972-7849</h3>
+                <h2 className="card-title">(94)99972-7849</h2>
               </Social>
             </div>
           </div>
@@ -189,12 +189,12 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
 
               <p>
                 {" "}
-                <h2 className="card-title">CASAL</h2>
+                <h1 className="card-title">CASAL</h1>
               </p>
-              <h3 className="card-title">VICE-LIDER</h3>
-              <h4 className="card-title">___________</h4>
-              <h4 className="card-title"> & </h4>
-              <h4 className="card-title">___________</h4>
+              <h2 className="card-title">VICE-LIDER</h2>
+              <h2 className="card-title">___________</h2>
+              <h2 className="card-title"> & </h2>
+              <h2 className="card-title">___________</h2>
               <Social>
                 <a
                   href="  https://api.whatsapp.com/send?phone=5591982390708&data=AWDy3Hf-oQfWn7Syzd8pJ_MlOjYIoghvjhfgubtS_qKP9hVbOUKymlrhXKhaxMF_4Z7ypOsbpTadf2EkRTGbXsjO7NYeJx3i
@@ -205,7 +205,7 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
                 >
                   <FaWhatsapp />
                 </a>
-                <h3 className="card-title">(94)99972-7849</h3>
+                <h2 className="card-title">(94)99972-7849</h2>
               </Social>
 
               <Social>
@@ -218,7 +218,7 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
                 >
                   <FaWhatsapp />
                 </a>
-                <h3 className="card-title">(94)99972-7849</h3>
+                <h2 className="card-title">(94)99972-7849</h2>
               </Social>
             </div>
           </div>
@@ -231,12 +231,12 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
 
               <p>
                 {" "}
-                <h2 className="card-title">CASAL</h2>
+                <h1 className="card-title">CASAL</h1>
               </p>
-              <h3 className="card-title">SECRETARIO</h3>
-              <h4 className="card-title">Ueslei</h4>
-              <h4 className="card-title"> & </h4>
-              <h4 className="card-title">Jessica</h4>
+              <h2 className="card-title">SECRETARIO</h2>
+              <h2 className="card-title">Ueslei</h2>
+              <h2 className="card-title"> & </h2>
+              <h2 className="card-title">Jessica</h2>
               <Social>
                 <a
                   href="  https://api.whatsapp.com/send?phone=5591982390708&data=AWDy3Hf-oQfWn7Syzd8pJ_MlOjYIoghvjhfgubtS_qKP9hVbOUKymlrhXKhaxMF_4Z7ypOsbpTadf2EkRTGbXsjO7NYeJx3i
