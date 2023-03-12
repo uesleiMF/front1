@@ -139,7 +139,7 @@ export default function Home() {
         <div className="row mb-3">
           <p className="mx-3 my-3 mb-0 text-center fs-2 font-weight-bold">
             {" "}
-            Visite-nós em nossa (Igreja)
+            VISITE-NOS EM NOSSA (Igreja)
           </p>
           <p className="mx-3 my-3 text-center fs-3 font-weight-bold"> Ou em uma</p>
 
