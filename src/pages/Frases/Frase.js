@@ -47,8 +47,8 @@ class Frase extends Component {
     return (
       <div className="container">
         <div className="card mt-4 mb-4 bg-warning bg-opacity-50">
-          <p></p>
-          <p className="mx-4 my-4 mb-0 text-center fs-2">
+         <p></p>
+           <p className="mx-4 my-4 mb-0 text-center fs-2">
             {" "}
             PALAVRAS EDIFICANTES
           </p>

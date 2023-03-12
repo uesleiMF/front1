@@ -40,8 +40,8 @@ export default function Home() {
                 </Link>
               </Logo>
 
-              <p className="mx-3 my-3 mb-0 text-center fs-2"> REDE DE CASAIS</p>
-              <p className="mx-3 my-3 text-center fs-3"> AMAI SEMPRE</p>
+              <p className="mx-3 my-3 mb-0 text-center fs-2 font-weight-bold"> REDE DE CASAIS</p>
+              <p className="mx-3 my-3 text-center fs-3 font-weight-bold"> AMAI SEMPRE</p>
             </div>
           </div>
         </div>
@@ -137,16 +137,16 @@ export default function Home() {
 
       <div className="card mt-4 bg-info">
         <div className="row mb-3">
-          <p className="mx-3 my-3 mb-0 text-center fs-2">
+          <p className="mx-3 my-3 mb-0 text-center fs-2 font-weight-bold">
             {" "}
             Visite-nós em nossa (Igreja)
           </p>
-          <p className="mx-3 my-3 text-center fs-3"> Ou em uma</p>
+          <p className="mx-3 my-3 text-center fs-3 font-weight-bold"> Ou em uma</p>
 
-          <p className="mx-3 my-3 mb-0 text-center fs-2">
+          <p className="mx-3 my-3 mb-0 text-center fs-2 font-weight-bold">
             (Celula) mais proxima de sua casa
           </p>
-          <p className="mx-3 my-3 text-center fs-3">
+          <p className="mx-3 my-3 text-center fs-3 font-weight-bold">
             {" "}
             CLIQUE EM UMA DAS IMAGENS ABAIXO:
           </p>
@@ -157,12 +157,12 @@ export default function Home() {
             </a>
           </Logo>
 
-          <p className="mx-3 my-3 text-center fs-3"> IEQ-SEDE</p>
+          <p className="mx-3 my-3 text-center fs-3 font-weight-bold"> IEQ-SEDE</p>
 
-          <p className="mx-3 my-3 mb-0 text-center fs-2">
+          <p className="mx-3 my-3 mb-0 text-center fs-2 font-weight-bold">
             Igreja Do Evangélio Quadrangular
           </p>
-          <p className="mx-3 my-3 text-center fs-3"> Marabá-Pá</p>
+          <p className="mx-3 my-3 text-center fs-3 font-weight-bold"> Marabá-Pá</p>
         </div>
       </div>
 

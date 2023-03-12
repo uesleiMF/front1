@@ -12,6 +12,13 @@ export default function Sobrenos() {
       <div className="card mt-4 bg-warning bg-opacity-75">
         <div className="card-title">
           <div className="row">
+           
+          <p></p>
+           <p className="mx-4 my-4 mb-0 text-center fs-3 font-bold">
+            {" "}
+            REDE AMAI
+          </p>
+           
             <div className="Letras">
               <Typewriter
                 onInit={(typewriter) => {
