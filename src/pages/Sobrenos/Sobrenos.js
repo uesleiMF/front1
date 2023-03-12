@@ -11,7 +11,7 @@ export default function Sobrenos() {
     <div className="container">
       <div className="card mt-4 bg-warning bg-opacity-75">
         <div className="card-title">
-          <div className="row">
+          
            
           <p></p>
            <p className="mx-4 my-4 mb-0 text-center fs-3 fw-bold">REDE AMAI</p>
@@ -39,7 +39,7 @@ export default function Sobrenos() {
                     .start();
                 }}
               />
-            </div>
+            
           </div>
         </div>
       </div>
