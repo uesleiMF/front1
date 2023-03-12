@@ -14,34 +14,28 @@ export default function Sobrenos() {
           <div className="row">
            
           <p></p>
-           <p className="mx-4 my-4 mb-0 text-center fs-3 font-bold">
-            {" "}
-            REDE AMAI
-          </p>
+           <p className="mx-4 my-4 mb-0 text-center fs-3 fw-bold">REDE AMAI</p>
          
-           <p className="mx-4 my-4 mb-0 text-center fs-3 font-bold">
-            {" "}
-           UM POUCO DE NOSSA HISTORIA
-          </p>
+           <p className="mx-4 my-4 mb-0 text-center fs-3 fw-bold">CONHEÇAM UM POUCO DESSE MINISTÉRIO</p>
            
             <div className="Letras">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
 
-                    .typeString ("REDE DE CASAIS AMAI SEMPRE  ")
+                    .typeString ("A REDE DE CASAIS DO MINISTÉRIO AMAI  ")
                     .pauseFor(700)
                     
                   
-                    .typeString("UM PROJETO QUE NASCEU NO CORAÇÃO DE DEUS. ")
+                    .typeString("FOI UM PROJETO QUE NASCEU NO CORAÇÃO DE DEUS. ")
                     .pauseFor(700)
 
                     .typeString(
-                      "UM POUQUINHO DA HISTORIA DESTA REDE TÃO ABENÇOADA QUE CADA DIA CRESCE "
+                      "OBJETIVO ESSE DE RESTAURAR CASAMENTOS, UM POUQUINHO DA HISTORIA DESTA REDE TÃO ABENÇOADA QUE CADA DIA CRESCE "
                     )
                     .pauseFor(700)
 
-                    .typeString("UM MINISTERIO DE CASAIS DA IEQ-MARABA-PA")
+                    .typeString("REDE DE CASAIS DA IEQ-MARABA-PA")
                     .start();
                 }}
               />

@@ -24,7 +24,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function Home() {
+export default function Pag() {
   return (
     <div className="container">
       <div className="card mt-4 bg-info bg-opacity-50">
@@ -40,8 +40,8 @@ export default function Home() {
                 </Link>
               </Logo>
 
-              <p className="mx-3 my-3 mb-0 text-center fs-2 font-weight-bold"> REDE DE CASAIS</p>
-              <p className="mx-3 my-3 text-center fs-3 font-weight-bold"> AMAI SEMPRE</p>
+              <p className="mx-3 my-3 mb-0 text-center fs-2 fw-bold"> REDE DE CASAIS</p>
+              <p className="mx-3 my-3 text-center fs-3 fw-bold"> AMAI SEMPRE</p>
             </div>
           </div>
         </div>
@@ -137,16 +137,16 @@ export default function Home() {
 
       <div className="card mt-4 bg-warning bg-opacity-50">
         <div className="row mb-3">
-          <p className="mx-3 my-3 mb-0 text-center fs-2 font-weight-bold">
+          <p className="mx-3 my-3 mb-0 text-center fs-2 fw-bold">
             {" "}
             VISITE-NOS EM NOSSA (Igreja)
           </p>
-          <p className="mx-3 my-3 text-center fs-3 font-weight-bold"> Ou em uma</p>
+          <p className="mx-3 my-3 text-center fs-3 fw-bold"> Ou em uma</p>
 
-          <p className="mx-3 my-3 mb-0 text-center fs-2 font-weight-bold">
+          <p className="mx-3 my-3 mb-0 text-center fs-2 fw-bold">
             (Celula) mais proxima de sua casa
           </p>
-          <p className="mx-3 my-3 text-center fs-3 font-weight-bold">
+          <p className="mx-3 my-3 text-center fs-3 fw-bold">
             {" "}
             CLIQUE EM UMA DAS IMAGENS ABAIXO:
           </p>
@@ -157,12 +157,12 @@ export default function Home() {
             </a>
           </Logo>
 
-          <p className="mx-3 my-3 text-center fs-3 font-weight-bold"> IEQ-SEDE</p>
+          <p className="mx-3 my-3 text-center fs-3 fw-bold"> IEQ-SEDE</p>
 
-          <p className="mx-3 my-3 mb-0 text-center fs-2 font-weight-bold">
+          <p className="mx-3 my-3 mb-0 text-center fs-2 fw-bold">
             Igreja Do Evangélio Quadrangular
           </p>
-          <p className="mx-3 my-3 text-center fs-3 font-weight-bold"> Marabá-Pá</p>
+          <p className="mx-3 my-3 text-center fs-3 fw-bold"> Marabá-Pá</p>
         </div>
       </div>
 
@@ -342,7 +342,7 @@ export default function Home() {
       </div>
 
       <div className="card mt-4 mb-3 bg-danger bg-opacity-50">
-      <p className="mx-3 my-3 mb-0 text-center fs-3"> CONHEÇAM NOSSAS MIDIAS SOCIAIS **MINISTERIO AMAI**</p>
+      <p className="mx-3 my-3 mb-0 text-center fs-4 fw-bold"> CONHEÇAM NOSSAS MIDIAS SOCIAIS **MINISTERIO AMAI**</p>
             
         
         <Social>
