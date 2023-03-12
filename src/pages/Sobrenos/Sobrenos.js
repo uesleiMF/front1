@@ -18,6 +18,11 @@ export default function Sobrenos() {
             {" "}
             REDE AMAI
           </p>
+         
+           <p className="mx-4 my-4 mb-0 text-center fs-3 font-bold">
+            {" "}
+           UM POUCO DE NOSSA HISTORIA
+          </p>
            
             <div className="Letras">
               <Typewriter
