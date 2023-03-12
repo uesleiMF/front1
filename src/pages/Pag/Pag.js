@@ -27,7 +27,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function Home() {
   return (
     <div className="container">
-      <div className="card mt-4 bg-info">
+      <div className="card mt-4 bg-info bg-opacity-50">
         <div className="card-title">
           <div className="row">
             <div className="col">
@@ -135,7 +135,7 @@ export default function Home() {
         <div></div>
       </div>
 
-      <div className="card mt-4 bg-info">
+      <div className="card mt-4 bg-warning bg-opacity-50">
         <div className="row mb-3">
           <p className="mx-3 my-3 mb-0 text-center fs-2 font-weight-bold">
             {" "}
@@ -166,7 +166,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="card mt-4 bg-success">
+      <div className="card mt-4 bg-success bg-opacity-50">
         <div className="row mb-3">
           <div class="col-4 p-3">
             <div className="card">
@@ -341,7 +341,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="card mt-4 mb-3 bg-info">
+      <div className="card mt-4 mb-3 bg-danger bg-opacity-50">
       <p className="mx-3 my-3 mb-0 text-center fs-3"> CONHEÇAM NOSSAS MIDIAS SOCIAIS **MINISTERIO AMAI**</p>
             
         
