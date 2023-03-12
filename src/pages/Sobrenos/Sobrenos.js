@@ -234,9 +234,9 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
                 <h1 className="card-title">CASAL</h1>
               </p>
               <h2 className="card-title">SECRETARIO</h2>
-              <h2 className="card-title">Ueslei</h2>
+              <h2 className="card-title">UESLEI</h2>
               <h2 className="card-title"> & </h2>
-              <h2 className="card-title">Jessica</h2>
+              <h2 className="card-title">JESSICA</h2>
               <Social>
                 <a
                   href="  https://api.whatsapp.com/send?phone=5591982390708&data=AWDy3Hf-oQfWn7Syzd8pJ_MlOjYIoghvjhfgubtS_qKP9hVbOUKymlrhXKhaxMF_4Z7ypOsbpTadf2EkRTGbXsjO7NYeJx3i
