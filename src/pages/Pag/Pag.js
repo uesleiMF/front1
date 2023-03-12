@@ -136,19 +136,15 @@ export default function Pag() {
       </div>
 
       <div className="card mt-4 bg-warning bg-opacity-50">
-        <div className="row mb-3">
+        
           <p className="mx-3 my-3 mb-0 text-center fs-2 fw-bold">
             {" "}
-            VISITE-NOS EM NOSSA (Igreja)
+            VISITE-NOS 
           </p>
-          <p className="mx-3 my-3 text-center fs-3 fw-bold"> Ou em uma</p>
-
-          <p className="mx-3 my-3 mb-0 text-center fs-2 fw-bold">
-            (Celula) mais proxima de sua casa
-          </p>
+         
           <p className="mx-3 my-3 text-center fs-3 fw-bold">
             {" "}
-            CLIQUE EM UMA DAS IMAGENS ABAIXO:
+            CLIQUE NA IMAGEN ABAIXO:
           </p>
 
           <Logo>
@@ -157,17 +153,31 @@ export default function Pag() {
             </a>
           </Logo>
 
-          <p className="mx-3 my-3 text-center fs-3 fw-bold"> IEQ-SEDE</p>
+          <p className="mx-3 my-3 text-center fs-3 fw-bold">IEQ-SEDE</p>
 
           <p className="mx-3 my-3 mb-0 text-center fs-2 fw-bold">
             Igreja Do Evangélio Quadrangular
           </p>
           <p className="mx-3 my-3 text-center fs-3 fw-bold"> Marabá-Pá</p>
         </div>
-      </div>
+      
 
       <div className="card mt-4 bg-success bg-opacity-50">
         <div className="row mb-3">
+        <p className="mx-3 my-3 mb-0 text-center fs-2 fw-bold">
+            {" "}
+            VISITE-NOS 
+          </p>
+         
+          <p className="mx-3 my-3 text-center fs-3 fw-bold">
+            {" "}
+            CLIQUE NA IMAGENS ABAIXO:
+          </p>
+          <p className="mx-3 my-3 text-center fs-3 fw-bold">
+            {" "}
+           E SEJÁ DIRECIONADO PARA UMA CELULA MAIS PROXIMA DE SUA CASA:
+          </p>
+
           <div class="col-4 p-3">
             <div className="card">
               <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
