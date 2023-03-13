@@ -390,7 +390,7 @@ export default function Pag() {
       </div>
 
       <div className="card mt-4 mb-3 bg-danger bg-opacity-50">
-      <p className="mx-3 my-3 mb-0 text-center fs-3 fw-bold"> CONHEÇAM NOSSAS MIDIAS SOCIAIS **MINISTERIO AMAI**</p>
+      <p className="mx-3 my-3 mb-0 text-center fs-2 fw-bold"> CONHEÇAM NOSSAS MIDIAS SOCIAIS **MINISTERIO AMAI**</p>
             
         
         <Social>
