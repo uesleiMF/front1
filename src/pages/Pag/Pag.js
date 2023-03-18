@@ -7,12 +7,13 @@ import c0 from "../../components/Img/c0.jpg";
 import c1 from "../../components/Img/c1.jpg";
 import c2 from "../../components/Img/c2.jpg";
 import c3 from "../../components/Img/c3.jpg";
-import c4 from "../../components/Img/c4.jpg";
+import c4 from "../../components/Img/cel.png";
 import c5 from "../../components/Img/c5.jpg";
 import c6 from "../../components/Img/c6.jpg";
 import c7 from "../../components/Img/c7.jpg";
 import c8 from "../../components/Img/c8.jpg";
 import c9 from "../../components/Img/c9.jpg";
+import c10 from "../../components/Img/cel1.png";
 import ieq from "../../components/Img/ieq2.jpg";
 import bi from "../../assets/bib.gif";
 
@@ -130,6 +131,14 @@ export default function Pag() {
               alt="slide 10"
             />
           </CCarouselItem>
+          <CCarouselItem>
+            <CImage
+              className="d-block "
+              src={c10}
+              height="350px"
+              alt="slide 10"
+            />
+          </CCarouselItem>
         </CCarousel>
 
         <div></div>
@@ -156,7 +165,7 @@ export default function Pag() {
           <p className="mx-3 my-3 text-center fs-3 fw-bold">IEQ-SEDE</p>
 
           <p className="mx-3 my-3 mb-0 text-center fs-2 fw-bold">
-            Igreja Do Evangélio Quadrangular
+            Igreja Do Evangélio Quadrangular!
           </p>
           <p className="mx-3 my-3 text-center fs-3 fw-bold"> Marabá-Pá</p>
         </div>
