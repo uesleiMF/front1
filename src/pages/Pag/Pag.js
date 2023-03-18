@@ -153,7 +153,7 @@ export default function Pag() {
          
           <p className="mx-3 my-3 text-center fs-3 fw-bold">
             {" "}
-            CLIQUE NA IMAGEN ABAIXO:
+            CLIQUE NA IMAGEM ABAIXO:
           </p>
 
           <Logo>
@@ -180,7 +180,7 @@ export default function Pag() {
          
           <p className="mx-3 my-3 text-center fs-3 fw-bold">
             {" "}
-            CLIQUE NA IMAGENS ABAIXO:
+            CLIQUE NAS IMAGENS ABAIXO:
           </p>
           <p className="mx-3 my-3 text-center fs-3 fw-bold">
             {" "}
