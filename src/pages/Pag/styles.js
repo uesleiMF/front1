@@ -72,33 +72,29 @@ export const Social = styled.div`
   margin:  1.8rem;
 
   }
+ 
+ 
+`;
 
-  
-  s {
-    font-size: 2.5rem;
+export const Icon = styled.div`
+  a {
+    font-size: 3.5rem;
     color: #00ff00;
     text-decoration: none;
+    justify-content: center;
+  align-items: center;
+  display: flex;
+  margin:  1.8rem;
+
   }
 
+  
  
-  b {
-   
-    font-size: 3.5rem;
-    color: #A020F0;
-    text-decoration: none;
-    justify-content: center;
-  align-items: center;
-   
-  }
-  c {
-    font-size: 6.5rem;
-    color: #A020F0;
-    text-decoration: none;
-    justify-content: center;
-  align-items: center;
-    
-  }
 `;
+
+
+
+
 export const CadContainer = styled.div`
   padding: 4rem 4rem 1rem 4rem;
   background-color: #9370DB;

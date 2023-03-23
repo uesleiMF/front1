@@ -16,10 +16,10 @@ import c9 from "../../components/Img/c9.jpg";
 import c10 from "../../components/Img/cel1.png";
 import ieq from "../../components/Img/ieq2.jpg";
 import bi from "../../assets/bib.gif";
-
+import { BsFillGeoAltFill } from "react-icons/bs";
 import { GrInstagram } from "react-icons/gr";
 import { FaFacebookSquare } from "react-icons/fa";
-
+import { Icon } from "./styles";
 import { Social } from "./styles";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./style.css";
@@ -187,216 +187,350 @@ export default function Pag() {
            E SEJÁ DIRECIONADO PARA UMA CELULA MAIS PROXIMA DE SUA CASA:
           </p>
 
-          <div class="col-4 p-3">
-            <div className="card">
-              <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
-                <img
+          <div class="col-4 p-2">
+         
+          <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img
                   src={c1}
                   alt="bo"
-                  width="25px"
-                  height="100px"
+                 
+                  height="200px"
                   className="card-img-top"
-                />
-              </a>
+                />    </div>
+    <div class="flip-card-back">
+    <p className="mx-3 my-3 mb-0 text-center fs-5 fw-bold">ENDEREÇO:</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">FOLHA 10 QUADRA 00 LOTE 00</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">LOCALIZAÇÃO ABAIXO</p>
+  
+      <Icon>
+    
+            <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
+      
+      <BsFillGeoAltFill />
+            
+            </a>
 
-              <div className="card-body">
-                <h8 className="card-title">FOLHA 17 QUADRA 13 LOTE 09</h8>
-                <span className="badge bg-primary"></span>
-              </div>
-            </div>
-          </div>
+            </Icon>
+            
+    </div>
+  </div>
+</div> 
+</div>
 
-          <div class="col-4 p-3">
-            <div className="card">
-              <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
-                <img
-                  src={c2}
-                  alt="bo"
-                  width="25px"
-                  height="100px"
-                  className="card-img-top"
-                />
-              </a>
+<div class="col-4 p-2">
+         
+         <div class="flip-card">
+ <div class="flip-card-inner">
+   <div class="flip-card-front">
+   <img
+                 src={c2}
+                 alt="bo"
+                
+                 height="200px"
+                 className="card-img-top"
+               />    </div>
+   <div class="flip-card-back">
+   <p className="mx-3 my-3 mb-0 text-center fs-5 fw-bold">ENDEREÇO:</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">FOLHA 10 QUADRA 00 LOTE 00</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">LOCALIZAÇÃO ABAIXO</p>
+  
+     <Icon>
+   
+           <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
+     
+     <BsFillGeoAltFill />
+           
+           </a>
 
-              <div className="card-body">
-                <h8 className="card-title">FOLHA 17 QUADRA 13 LOTE 09</h8>
-                <span className="badge bg-primary"></span>
-              </div>
-            </div>
-          </div>
+           </Icon>
+    </div>
+  </div>
+</div> 
+</div>
+<div class="col-4 p-2">
+         
+         <div class="flip-card">
+ <div class="flip-card-inner">
+   <div class="flip-card-front">
+   <img
+                 src={c3}
+                 alt="bo"
+                
+                 height="200px"
+                 className="card-img-top"
+               />    </div>
+   <div class="flip-card-back">
+   <p className="mx-3 my-3 mb-0 text-center fs-5 fw-bold">ENDEREÇO:</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">FOLHA 10 QUADRA 00 LOTE 00</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">LOCALIZAÇÃO ABAIXO</p>
+  
+     <Icon>
+   
+           <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
+     
+     <BsFillGeoAltFill />
+           
+           </a>
 
-          <div class="col-4 p-3">
-            <div className="card">
-              <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
-                <img
-                  src={c3}
-                  alt="bo"
-                  width="25px"
-                  height="100px"
-                  className="card-img-top"
-                />
-              </a>
+           </Icon>
+    </div>
+  </div>
+</div> 
+</div>
 
-              <div className="card-body">
-                <h8 className="card-title">FOLHA 17 QUADRA 13 LOTE 09</h8>
-                <span className="badge bg-primary"></span>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-4 p-3">
-            <div className="card">
-              <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
-                <img
-                  src={c2}
-                  alt="bo"
-                  width="25px"
-                  height="100px"
-                  className="card-img-top"
-                />
-              </a>
 
-              <div className="card-body">
-                <h8 className="card-title">FOLHA 17 QUADRA 13 LOTE 09</h8>
-                <span className="badge bg-primary "></span>
-              </div>
-            </div>
-          </div>
+<div class="col-4 p-2">
+         
+         <div class="flip-card">
+ <div class="flip-card-inner">
+   <div class="flip-card-front">
+   <img
+                 src={c4}
+                 alt="bo"
+                
+                 height="200px"
+                 className="card-img-top"
+               />    </div>
+   <div class="flip-card-back">
+   <p className="mx-3 my-3 mb-0 text-center fs-5 fw-bold">ENDEREÇO:</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">FOLHA 10 QUADRA 00 LOTE 00</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">LOCALIZAÇÃO ABAIXO</p>
+  
+     <Icon>
+   
+           <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
+     
+     <BsFillGeoAltFill />
+           
+           </a>
 
-          <div class="col-4 p-3">
-            <div className="card">
-              <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
-                <img
-                  src={c1}
-                  alt="bo"
-                  width="25px"
-                  height="100px"
-                  className="card-img-top"
-                />
-              </a>
+           </Icon>
+    </div>
+  </div>
+</div> 
+</div>
 
-              <div className="card-body">
-                <h8 className="card-title">FOLHA 17 QUADRA 13 LOTE 09</h8>
-                <span className="badge bg-primary"></span>
-              </div>
-            </div>
-          </div>
+<div class="col-4 p-2">
+         
+         <div class="flip-card">
+ <div class="flip-card-inner">
+   <div class="flip-card-front">
+   <img
+                 src={c5}
+                 alt="bo"
+                
+                 height="200px"
+                 className="card-img-top"
+               />    </div>
+   <div class="flip-card-back">
+   <p className="mx-3 my-3 mb-0 text-center fs-5 fw-bold">ENDEREÇO:</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">FOLHA 10 QUADRA 00 LOTE 00</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">LOCALIZAÇÃO ABAIXO</p>
+  
+     <Icon>
+   
+           <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
+     
+     <BsFillGeoAltFill />
+           
+           </a>
 
-          <div class="col-4 p-3">
-            <div className="card">
-              <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
-                <img
-                  src={c2}
-                  alt="bo"
-                  width="25px"
-                  height="100px"
-                  className="card-img-top"
-                />
-              </a>
+           </Icon>
+    </div>
+  </div>
+</div> 
+</div>
+<div class="col-4 p-2">
+         
+         <div class="flip-card">
+ <div class="flip-card-inner">
+   <div class="flip-card-front">
+   <img
+                 src={c6}
+                 alt="bo"
+                
+                 height="200px"
+                 className="card-img-top"
+               />    </div>
+   <div class="flip-card-back">
+   <p className="mx-3 my-3 mb-0 text-center fs-5 fw-bold">ENDEREÇO:</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">FOLHA 10 QUADRA 00 LOTE 00</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">LOCALIZAÇÃO ABAIXO</p>
+   
+     <Icon>
+   
+           <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
+     
+     <BsFillGeoAltFill />
+           
+           </a>
 
-              <div className="card-body">
-                <h8 className="card-title">FOLHA 17 QUADRA 13 LOTE 09</h8>
-                <span className="badge bg-primary"></span>
-              </div>
-            </div>
-          </div>
+           </Icon>
+    </div>
+  </div>
+</div> 
+</div>
 
-          <div class="col-4 p-3">
-            <div className="card">
-              <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
-                <img
-                  src={c1}
-                  alt="bo"
-                  width="25px"
-                  height="100px"
-                  className="card-img-top"
-                />
-              </a>
+<div class="col-4 p-2">
+         
+         <div class="flip-card">
+ <div class="flip-card-inner">
+   <div class="flip-card-front">
+   <img
+                 src={c7}
+                 alt="bo"
+                
+                 height="200px"
+                 className="card-img-top"
+               />    </div>
+   <div class="flip-card-back">
+   <p className="mx-3 my-3 mb-0 text-center fs-5 fw-bold">ENDEREÇO:</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">FOLHA 10 QUADRA 00 LOTE 00</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">LOCALIZAÇÃO ABAIXO</p>
+   
+     <Icon>
+   
+           <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
+     
+     <BsFillGeoAltFill />
+           
+           </a>
 
-              <div className="card-body">
-                <h8 className="card-title">FOLHA 17 QUADRA 13 LOTE 09</h8>
-                <span className="badge bg-primary"></span>
-              </div>
-            </div>
-          </div>
+           </Icon>
+    </div>
+  </div>
+</div> 
+</div>
 
-          <div class="col-4 p-3">
-            <div className="card">
-              <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
-                <img
-                  src={c2}
-                  alt="bo"
-                  width="25px"
-                  height="100px"
-                  className="card-img-top"
-                />
-              </a>
+<div class="col-4 p-2">
+         
+         <div class="flip-card">
+ <div class="flip-card-inner">
+   <div class="flip-card-front">
+   <img
+                 src={c8}
+                 alt="bo"
+                
+                 height="200px"
+                 className="card-img-top"
+               />    </div>
+   <div class="flip-card-back">
+   <p className="mx-3 my-3 mb-0 text-center fs-5 fw-bold">ENDEREÇO:</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">FOLHA 10 QUADRA 00 LOTE 00</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">LOCALIZAÇÃO ABAIXO</p>
+  
+     <Icon>
+   
+           <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
+     
+     <BsFillGeoAltFill />
+           
+           </a>
 
-              <div className="card-body">
-                <h8 className="card-title">FOLHA 17 QUADRA 13 LOTE 09</h8>
-                <span className="badge bg-primary"></span>
-              </div>
-            </div>
-          </div>
+           </Icon>
+    </div>
+  </div>
+</div> 
+</div>
+<div class="col-4 p-2">
+         
+         <div class="flip-card">
+ <div class="flip-card-inner">
+   <div class="flip-card-front">
+   <img
+                 src={c9}
+                 alt="bo"
+                
+                 height="200px"
+                 className="card-img-top"
+               />    </div>
+   <div class="flip-card-back">
+   <p className="mx-3 my-3 mb-0 text-center fs-5 fw-bold">ENDEREÇO:</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">FOLHA 10 QUADRA 00 LOTE 00</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">LOCALIZAÇÃO ABAIXO</p>
+  
+     <Icon>
+   
+           <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
+     
+     <BsFillGeoAltFill />
+           
+           </a>
 
-          <div class="col-4 p-3">
-            <div className="card">
-              <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
-                <img
-                  src={c2}
-                  alt="bo"
-                  width="25px"
-                  height="100px"
-                  className="card-img-top"
-                />
-              </a>
+           </Icon>
+    </div>
+  </div>
+</div> 
+</div>
 
-              <div className="card-body">
-                <h8 className="card-title">FOLHA 17 QUADRA 13 LOTE 09</h8>
-                <span className="badge bg-primary"></span>
-              </div>
-            </div>
-          </div>
+<div class="col-4 p-2">
+         
+         <div class="flip-card">
+ <div class="flip-card-inner">
+   <div class="flip-card-front">
+   <img
+                 src={c10}
+                 alt="bo"
+                
+                 height="200px"
+                 className="card-img-top"
+               />    </div>
+   <div class="flip-card-back">
+    <p className="mx-3 my-3 mb-0 text-center fs-5 fw-bold">ENDEREÇO:</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">FOLHA 10 QUADRA 00 LOTE 00</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">LOCALIZAÇÃO ABAIXO</p>
+  
+    
+     <Icon>
+   
+           <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
+     
+     <BsFillGeoAltFill />
+           
+           </a>
 
-          <div class="col-4 p-3">
-            <div className="card">
-              <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
-                <img
-                  src={c2}
-                  alt="bo"
-                  width="25px"
-                  height="100px"
-                  className="card-img-top"
-                />
-              </a>
+           </Icon>
+    </div>
+  </div>
+</div> 
+</div>
 
-              <div className="card-body">
-                <h8 className="card-title">FOLHA 17 QUADRA 13 LOTE 09</h8>
-                <span className="badge bg-primary"></span>
-              </div>
-            </div>
-          </div>
+<div class="col-4 p-2">
+         
+         <div class="flip-card">
+ <div class="flip-card-inner">
+   <div class="flip-card-front">
+   <img
+                 src={c0}
+                 alt="bo"
+                
+                 height="200px"
+                 className="card-img-top"
+               />    </div>
+   <div class="flip-card-back">
+   <p className="mx-3 my-3 mb-0 text-center fs-5 fw-bold">ENDEREÇO:</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">FOLHA 10 QUADRA 00 LOTE 00</p>
+   <p className="mx-3 my-3 mb-0 text-center fs-6 fw-bold">LOCALIZAÇÃO ABAIXO</p>
+  
+     <Icon>
+   
+           <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
+     
+     <BsFillGeoAltFill />
+           
+           </a>
 
-          <div class="col-4 p-3">
-            <div className="card">
-              <a href="https://maps.app.goo.gl/e9p6hr2WNqNPU19V9">
-                <img
-                  src={c1}
-                  alt="bo"
-                  width="25px"
-                  height="100px"
-                  className="card-img-top"
-                />
-              </a>
+           </Icon>
+    </div>
+  </div>
+</div> 
+</div>
+  </div>
+</div> 
 
-              <div className="card-body">
-                <h8 className="card-title">FOLHA 17 QUADRA 13 LOTE 09</h8>
-                <span className="badge bg-primary"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <div className="card mt-4 mb-3 bg-danger bg-opacity-50">
       <p className="mx-3 my-3 mb-0 text-center fs-2 fw-bold"> CONHEÇAM NOSSAS MIDIAS SOCIAIS **MINISTERIO AMAI**</p>
