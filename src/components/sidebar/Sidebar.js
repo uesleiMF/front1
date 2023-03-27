@@ -42,12 +42,13 @@ const Sidebar = ({ children }) => {
 
       <main
         style={{
-          paddingLeft: isOpen ? "230px" : "60px",
+          paddingLeft: isOpen ? "220px" : "45px",
           transition: "all .5s",
         }}
       >
         {children}
       </main>
+      
     </div>
     </div>
     </div>

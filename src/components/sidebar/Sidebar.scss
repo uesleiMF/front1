@@ -4,19 +4,19 @@
 main {
   width: 100%;
   // padding: 20px;
-  color: #daa8a8;
+  color: #ebfd83;
 }
 .sidebar {
   margin: 0;
   padding: 0;
 
-  background-color: #dbb4d3;
+  background-color: #b9f7f4;
   position: absolute;
 
   overflow: auto;
 
   width: auto;
-  height: auto;
+  height: 99%;
 
 
   
@@ -63,7 +63,7 @@ main {
 }
 
 .sidebar-item:hover {
-  background-color: #eee;
+  background-color: #ebc2c2;
 }
 
 .sidebar-title {

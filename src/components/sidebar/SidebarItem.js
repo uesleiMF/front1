@@ -44,6 +44,7 @@ const SidebarItem = ({ item, isOpen }) => {
             );
           })}
         </div>
+        
       </div>
     );
   } else {
@@ -55,8 +56,10 @@ const SidebarItem = ({ item, isOpen }) => {
               {item.icon && <div className="icon">{item.icon}</div>}
               {isOpen && <div>{item.title}</div>}
             </span>
+         
           </div>
         </div>
+        
       </NavLink>
     );
   }
