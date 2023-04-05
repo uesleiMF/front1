@@ -637,7 +637,7 @@ ls&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR
       </div>
       <div className="card mt-4 bg-primary">
         <h3 className="mx-3 my-3 text-center text-white">CELULA DE CASAIS</h3>
-        <h4 className="mx-3 my-3 text-center text-white ">(UM SO PROPOSITO)</h4>
+        <h4 className="mx-3 my-3 text-center text-white ">(UM SO PROPÓSITO)</h4>
         <h5 className="mx-3 my-3 text-center text-white"> CASAIS LIDERES</h5>
 
         <div class="d-flex align-content p-3">
