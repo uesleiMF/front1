@@ -26,6 +26,7 @@ import Profile from "./pages/profile/Profile";
 import EditProfile from "./pages/profile/EditProfile";
 import Contact from "./pages/contact/Contact";
 import Frase from "./pages/Frases/Frase";
+import Videos from "./pages/Videos/videos";
 
 axios.defaults.withCredentials = true;
 
@@ -54,6 +55,8 @@ function App() {
         <Route path="/app" element={<Player />} />
         <Route path="/frase" element={<Frase />} />
         <Route path="/letras" element={<Letras />} />
+        <Route path="/videos" element={<Videos />} />
+        
         
         <Route
           path="/dashboard"
