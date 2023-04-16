@@ -39,6 +39,33 @@ export const Container = styled.div`
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 `
+export const L = styled.a`
+display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #00abef;
+  padding: 1rem;
+  color: #fff;
+
+
+
+
+img {
+    width: 10rem;
+    margin: 0 0.9rem;
+    border-radius: 25%;
+    margin-top: auto;
+    margin-left:25px;
+    
+
+  }
+`
+;
+
+
+
+
 export const Logo = styled.a`
 
 h6 {

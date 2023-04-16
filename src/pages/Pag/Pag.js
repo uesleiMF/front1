@@ -1,6 +1,6 @@
 //import { Carousel } from 'react-responsive-carousel';
 import React from "react";
-import { Logo } from "./styles";
+import { Logo, L} from "./styles";
 import { CCarousel, CCarouselItem, CImage } from "@coreui/react";
 import { Link } from "react-router-dom";
 import c0 from "../../components/Img/c0.jpg";
@@ -16,6 +16,7 @@ import c9 from "../../components/Img/c9.jpg";
 import c10 from "../../components/Img/cel1.png";
 import ieq from "../../components/Img/ieq2.jpg";
 import bi from "../../assets/bib.gif";
+import vi from "../../assets/v.png";
 import { BsFillGeoAltFill } from "react-icons/bs";
 import { GrInstagram } from "react-icons/gr";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -32,14 +33,26 @@ export default function Pag() {
         <div className="card-title">
           <div className="row">
             <div className="col">
-              <Logo>
+            
+              <L> 
                 <Link to="/frase">
-                  <c>
-                    {" "}
-                    <img src={bi} alt="bo" />{" "}
-                  </c>
-                </Link>
-              </Logo>
+                 
+                  <img src={bi}
+                 alt="bo" />
+                 
+                
+                 </Link> 
+              </L>
+              <L>
+                <Link to="/videos"><img src={vi}
+                 alt="bo" /></Link>
+              </L>
+            
+
+
+
+
+
 
               <p className="mx-3 my-3 mb-0 text-center fs-2 fw-bold"> REDE DE CASAIS</p>
               <p className="mx-3 my-3 text-center fs-3 fw-bold"> AMAI SEMPRE</p>
