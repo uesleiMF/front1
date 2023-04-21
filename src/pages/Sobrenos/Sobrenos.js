@@ -1,7 +1,8 @@
 import React from "react";
 import { Social } from "./styles";
 import { FaWhatsapp } from "react-icons/fa";
-import c1 from "../../components/Img/uj.png";
+import c1 from "../../components/Img/up.gif";
+//import c2 from "../../components/Img/uj.png";
 import Typewriter from "typewriter-effect";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Sobrenos.css";
