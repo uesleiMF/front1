@@ -40,11 +40,11 @@ export const Container = styled.div`
   }
 `
 export const L = styled.a`
-display: flex;
+
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #00abef;
+  
   padding: 1rem;
   color: #fff;
 
@@ -52,17 +52,63 @@ display: flex;
 
 
 img {
-    width: 10rem;
+    width: 8rem;
     margin: 0 0.9rem;
-    border-radius: 25%;
+    border-radius: 10%;
     margin-top: auto;
-    margin-left:25px;
+    margin-left:20px;
     
 
   }
 `
 ;
 
+export const Lo = styled.a`
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  padding: 1rem;
+  color: #fff;
+
+
+
+
+img {
+    width: 8rem;
+    margin: 0 0.9rem;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-left:20px;
+    
+
+  }
+`
+;
+export const Li = styled.a`
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  padding: 1rem;
+  color: #fff;
+
+
+
+
+img {
+    width: 7rem;
+    margin: 0 0.9rem;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-left:20px;
+    
+
+  }
+`
+;
 
 
 

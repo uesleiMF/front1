@@ -55,7 +55,11 @@ class Frase extends Component {
           <p className="mx-4 my-4 mb-0 text-center fs-3 fw-bold"> PARA SEU CASAMENTO</p>
           <p></p>
 
+
+      
           <img className="img" src={img} alt="Palavras da Biblia" />
+
+
 
           <Botao nome="CLIQUE AQUI" acaoBtn={this.palavraEdificante} />
 
