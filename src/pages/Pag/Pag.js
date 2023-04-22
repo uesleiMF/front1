@@ -31,8 +31,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function Pag() {
   return (
     <div className="container">
-       <div className="card mt-4 bg-warning bg-opacity-50">
-      
+          
      <div className="card-title">
           <div className="row">
             <div className="col">
@@ -73,7 +72,7 @@ export default function Pag() {
               </Li>
             
       </div>
-      </div>
+    
      <div className="card mt-4 bg-info bg-opacity-50">
             
         <div className="card-title">
