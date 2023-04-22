@@ -56,7 +56,7 @@ img {
     margin: 0 0.9rem;
     border-radius: 10%;
     margin-top: auto;
-    margin-left:20px;
+    margin-left:15px;
     
 
   }
@@ -80,7 +80,7 @@ img {
     margin: 0 0.9rem;
     border-radius: 50%;
     margin-top: auto;
-    margin-left:20px;
+    margin-left:30px;
     
 
   }
@@ -103,12 +103,13 @@ img {
     margin: 0 0.9rem;
     border-radius: 50%;
     margin-top: auto;
-    margin-left:20px;
+    margin-left:30px;
     
 
   }
 `
 ;
+
 
 
 

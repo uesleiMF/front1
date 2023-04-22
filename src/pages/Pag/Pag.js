@@ -1,6 +1,6 @@
 //import { Carousel } from 'react-responsive-carousel';
 import React from "react";
-import { Logo, L, Lo,Li} from "./styles";
+import { Logo, L,Lo,Li} from "./styles";
 import { CCarousel, CCarouselItem, CImage } from "@coreui/react";
 import { Link } from "react-router-dom";
 import c0 from "../../components/Img/c0.jpg";
@@ -15,6 +15,7 @@ import c8 from "../../components/Img/c8.jpg";
 import c9 from "../../components/Img/c9.jpg";
 import c10 from "../../components/Img/cel1.png";
 import ieq from "../../components/Img/ieq2.jpg";
+
 import m from "../../components/Img/m.jpg";
 import bi from "../../assets/bib.gif";
 import vi from "../../assets/v.png";
@@ -30,7 +31,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function Pag() {
   return (
     <div className="container">
-     <div className="card mt-4 bg-info bg-opacity-50">
+       <div className="card mt-4 bg-warning bg-opacity-50">
+      
      <div className="card-title">
           <div className="row">
             <div className="col">
@@ -39,11 +41,18 @@ export default function Pag() {
           </div>
         </div>
 
+    
       
       <div class="col-sm- p-3">
 
 
-              <L> 
+  
+
+
+
+
+
+                <L> 
                 <Link to="/frase">
                  
                   <img src={bi}
@@ -64,7 +73,8 @@ export default function Pag() {
               </Li>
             
       </div>
-      
+      </div>
+     <div className="card mt-4 bg-info bg-opacity-50">
             
         <div className="card-title">
           <div className="row">
