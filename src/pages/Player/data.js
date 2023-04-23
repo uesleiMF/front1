@@ -14,19 +14,17 @@ function chillHop() {
 			active: true,
 		},
 		{
-			name: "Eu eeeeeee Minha Casa",
-			cover:
-				"https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
-			artist: "André ",
+			name: "BONDADE DE DEUS",
+			cover:"./images/9.webp",
+			artist: "ISAIAS SAAD ",
 			audio: './music/Bondade de Deus(2).mp3',
 			color: ["#EF8EA9", "#ab417f"],
 			id: uuidv4(),
 			active: false,
 		},
 		{
-			name: "O Tempo não pode apagar",
-			cover:
-				"https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
+			name: "O TEMPO NÃO PODE APAGAR",
+			cover:"./images/8.webp",
 			artist: "Cassiane",
 			audio: './music/a.mp3',
 			color: ["#CD607D", "#c94043"],
@@ -34,10 +32,10 @@ function chillHop() {
 			active: false,
 		},
 		{
-			name: "Nightfall",
+			name: "HEY PAY",
 			cover:
-				"https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
-			artist: "Aiguille",
+				"./images/1.webp",
+			artist: "Isadora Pompeo",
 			audio: './music/i.mp3',
 			color: ["#EF8EA9", "#ab417f"],
 			id: uuidv4(),
