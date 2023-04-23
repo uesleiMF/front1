@@ -6,7 +6,7 @@ class Videos extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="card mt-4 bg-info bg-opacity-75">
+        <div className="card mt-4 mb-3 bg-info bg-opacity-75">
           <div className="card-title">
             <p></p>
             <p className="mx-4 my-4 mb-0 text-center fs-3 fw-bold">REDE AMAI</p>
