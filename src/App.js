@@ -6,6 +6,7 @@ import Register from "./pages/auth/Register";
 import Forgot from "./pages/auth/Forgot";
 import Reset from "./pages/auth/Reset";
 import Dashboard from "./pages/dashboard/Dashboard";
+import Home from "./components/home/home";
 import Pag from "./pages/Pag/Pag";
 import Sobrenos from "./pages/Sobrenos/Sobrenos";
 import Navbar from "./components/Navbar/Navbar";
@@ -47,6 +48,8 @@ function App() {
       <ToastContainer />
       <Routes>
       <Route path="/" element={<Pag/>} />
+      <Route path="/home" element={<Home/>} />
+      
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/forgot" element={<Forgot />} />
@@ -131,6 +134,7 @@ function App() {
       </Routes>
       <Footer/>
     </BrowserRouter>
+  
   );
 }
 
