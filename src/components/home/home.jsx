@@ -4,6 +4,11 @@ import Buttons from '../button/button';
 import { BsMouse } from 'react-icons/bs';
 
 function Home() {
+ 
+ 
+  
+
+
   return (
     <div id='home' className='container home-container'>
       <div className='logo'>
@@ -17,6 +22,9 @@ function Home() {
           <span className='circle'></span>
           <span className='circle'></span>
         </div>
+
+       
+
 
 
         <img src={img} alt='' />
