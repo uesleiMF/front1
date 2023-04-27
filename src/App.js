@@ -31,6 +31,7 @@ import Videos from "./pages/Videos/videos";
 
 axios.defaults.withCredentials = true;
 
+
 function App() {
   const dispatch = useDispatch();
 
@@ -133,9 +134,19 @@ function App() {
         />
       </Routes>
       <Footer/>
+
+
+    
+
+
+
     </BrowserRouter>
   
   );
 }
+
+
+
+
 
 export default App;

@@ -43,6 +43,9 @@ function Home() {
       <Buttons />
     </div>
   );
+
+
+  
 }
 
 export default Home;
