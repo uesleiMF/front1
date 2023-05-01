@@ -29,6 +29,7 @@ import Contact from "./pages/contact/Contact";
 import Frase from "./pages/Frases/Frase";
 import Videos from "./pages/Videos/videos";
 
+
 axios.defaults.withCredentials = true;
 
 
@@ -62,6 +63,8 @@ function App() {
         <Route path="/videos" element={<Videos />} />
         
         
+        
+
         <Route
           path="/dashboard"
           element={
