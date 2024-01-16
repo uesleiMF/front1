@@ -48,6 +48,7 @@ function App() {
     <BrowserRouter>
      <Navbar/>
       <ToastContainer />
+      
       <Routes>
       <Route path="/" element={<Pag/>} />
       <Route path="/home" element={<Home/>} />

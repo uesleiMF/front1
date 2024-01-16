@@ -1,6 +1,5 @@
 import { FaTh, FaRegChartBar, FaCommentAlt } from "react-icons/fa";
 import { GiLovers } from "react-icons/gi";
-
 const menu = [
   {
     title: "Painel",
@@ -9,7 +8,7 @@ const menu = [
   },
   {
     title: "Adicionar Casais",
-    icon: <GiLovers/>,
+    icon: <GiLovers />,
     path: "/add-casal",
   },
   {
